@@ -1,0 +1,132 @@
+Hard [PROYECTO INVERNADERO]
+     Tips{
+        [VPS] 
+            sshpass -p Kgey1j4ql16UPDWT ssh root@167.86.119.191
+            "VPS IP"
+            167.86.119.191
+            password: Kgey1j4ql16UPDWT
+        [ANYDESK - PC]
+            909348350
+            patelecom.srl
+        [VERIFICAR IPS PARA PRUEBAS O PRODUCCION]
+            "SERVIDOR"
+            mod-agent/index.js (ip)
+            ngx-admin-master/server.js (ip)
+            mod-mqtt/server.js (para notificaciones cambiar ip)
+            "PC"
+            Raspberry/mod-agent/index.js (ip)
+            Raspberr/Arduino/invernadero.js (ip y uuid)
+        [VERSION INVERNADERO]
+            "NVM"
+            wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+            "NODEJS"
+            nvm i 8.11.2
+            "ANGULAR"
+            npm i -g @angular/cli@6.0.8
+        [CAMBIAR LA HORA A BOLIVIA]
+            ln -sf /usr/share/zoneinfo/America/La_Paz /etc/localtime
+
+        [INSTALAR SERVIDOR]
+            "SERVIDOR"
+            sudo apt-get install postgresql postgresql-client postgresql-contrib libpq-dev
+            sudo apt-get install redis-server
+            sudo apt-get install apache2
+            wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+            source ~/.bash_aliases 
+            nvm i 8.11.2
+            npm i -g pm2
+            "PC"
+            wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+            source ~/.bash_aliases 
+            nvm i 8.11.2
+            sudo apt-get install redis-server
+            sudo apt-get install arduino arduino-core 
+            npm i -g pm2
+        [INSTALAR MODULOS]
+            "SERVIDOR"
+            pushd Invernadero/mod-db/;npm install;popd
+            pushd Invernadero/mod-agent/;npm install;popd
+            pushd Invernadero/mod-mqtt/;npm install;popd
+            pushd Invernadero/mod-api/;npm install;popd
+            pushd Invernadero/mod-web/;npm install;popd
+            pushd Invernadero/ngx-admin-master/;npm install;popd
+            "PC"
+            pushd Invernadero/Raspberry/Arduino/;npm install;popd
+            pushd Invernadero/Raspberry/mod-agent/;npm install;popd
+            pushd Invernadero/Raspberry/mod-mqtt/;npm install;popd
+            pushd Invernadero/Raspberry/mod-db/;npm install;popd
+        [VERIFICAR IPS PARA PRUEBAS O PRODUCCION]
+            "SERVIDOR"
+            mod-agent/index.js (ip)
+            ngx-admin-master/server.js (ip)
+            mod-mqtt/server.js (para notificaciones cambiar ip)
+            "PC"
+            Raspberry/mod-agent/index.js (ip)
+            Raspberr/Arduino/invernadero.js (ip y uuid)
+        [INICIAR MODULOS]
+            "SERVIDOR"
+            "INICIAR NUEVO DB"
+            sudo su postgres
+            psql
+            CREATE ROLE patelecom WITH LOGIN PASSWORD 'patelecom';
+            CREATE DATABASE patelecom;
+            GRANT ALL PRIVILEGES ON DATABASE patelecom TO patelecom;
+            \quit
+            "UNA VEZ CREADO LA DB, CREAR LAS TABLAS"
+            pushd Invernadero/mod-db/;npm run setup;popd
+            "SOLO COMPROBAR SI FUNCIONAN"
+            pushd Invernadero/mod-mqtt/;npm run start-dev;popd
+            pushd Invernadero/mod-api/;npm run start-dev;popd
+            pushd Invernadero/ngx-admin-master/;npm run start-dev;popd
+            "COLOCANDO EN PRODUCCION EL SERVIDOR"
+            pushd Invernadero/;pm2 start Invernadero.json;popd
+
+            "ANTES DE COLOCAR LA PC EN PRODUCCION COMPROBAR Y ASIGNAR LOS PUERTOS DE LOS DIFERENTES ARDUINOS"
+            Invernadero/Raspberr/invernadero.js
+            "PC - SOLO VERIFICAR SI FUNCIONA"
+            pushd Invernadero/Raspberry/mod-mqtt/;npm run start-dev;popd
+            pushd Invernadero/Raspberry/Arduino/;node invernadero.js;popd
+            "COLOCANDO EN PRODUCCION EN LA PC"
+            pushd Invernadero/Raspberry/;pm2 start ecosystem.config.js;popd
+
+        [ANGULAR]
+            "IP"
+            Invernadero/ngx-admin-master/src/service/global.ts
+            "COMPROBAR FUNCIONAMIENTO"
+            pushd Invernadero/ngx-admin-master/;ng serve;popd
+            "INICIAR EN MODO PRODUCCION"
+            pushd Invernadero/ngx-admin-master/;ng build --prod;popd
+            "DESPLEGAR EN PRODUCCION"
+            "comprobar si el directorio es root o home con usuario"
+            sshpass -p Kgey1j4ql16UPDWT ssh root@167.86.119.191
+            pushd Invernadero/;git pull origin master;rm -rf * /var/www/html/;cp -r /root/Invernadero/ngx-admin-master/dist /var/www/html/ popd
+            
+
+        [POSTGRESQL - NUEVO DB]
+            sudo su postgres
+            psql
+            CREATE ROLE patelecom WITH LOGIN PASSWORD 'patelecom';
+            CREATE DATABASE patelecom;
+            GRANT ALL PRIVILEGES ON DATABASE patelecom TO patelecom;
+            \quit
+
+        [API]
+            "BORRAR TODOS LOS SENSORES DE UNA FECHA PARA ABAJO"
+            POST: /eraseSensorByDate
+            date:
+            uuid:
+            borrara desde la fecha para abajo
+
+            "BORRAR TODO DE UN SENSOR ESPECIFICO"
+            POST: /borrarSensor
+            type:
+            controladorId
+
+        [API HEADERS]
+            "Cabezeras en el midellware para acceder a todo"
+            res.header('Access-Control-Allow-Origin', '*');
+            res.header('Access-Control-Allow-Headers', 'Authorization, X-API-Key, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method');
+            res.header('Access-Control-Allow-Methods, 'GET, POST, OPTIONS, PUT, DELETE');
+            res.header('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
+            next();
+    }

@@ -17,6 +17,7 @@ Hard [COMANDOS MAS USADOS]
                 "git commit -am 'mensaje comit'" añade archivos y realiza un comit al mismo tiempo, solo aplica si los archivos no son nuevos
                 "git push origin master" sube al servidor github todos los cambios
                 "git remote add origin https://github.com/edsonarios/Invernadero.git"
+                "git pull origin master --allow-unrelated-histories" fusionar, traendo archivos de github, forzando merge, esto en caso dq se haga el push por primera vez
 
         [archivos nuevos]
                 "git add -A" añade todos los archivos para commit, solo la primera vez que se crea un archivo
