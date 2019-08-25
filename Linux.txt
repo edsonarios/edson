@@ -1,0 +1,208 @@
+[NOTAS IMPORTANTES PARA LINUX]
+Hard [LINUX]
+    Tips{
+        [en terminal]
+        
+            "ls -lha" muestra en detalle, peso, ocultos
+            "ctrl + L" limpiar terminal 
+            "ctrl + u" limpiar escritura hacia atras
+            "ctrl + k" limpiar escritura hacia adelante
+            "history" muestra el historial de comandos usados
+            "man ls" manual de un comando especifico 
+            "ls /usr/bin" lista todos los comandos disponibles
+            "which ls" muestra donde esta ubicado el comando [todos los ejecutables deberian estar en la carpeta bin, para ejecutar]
+            "top" ver todos los procesos q corren en la pc y con "h" se ven las ayudas de top 
+            "kill -9 pid" termina el proceso señalado
+            "php streams.php > salida.log 2>&1 &" todas las salidas out y error del programa lo manda a salida.log y ademas muestra el pid ejecutado
+            "uptime" muestra el total de tiempo que esta encendido la pc
+            "grep -n -r . -e beco" busca en la carpeta y subcarpetas y dentro de los archivos ese texto y te muestra el numero de la linea 
+            "date; grep -r carpeta -e beco;date" [truco] determina cuanto tiempo tardo el proceso
+            "cat archivo.txt | awk -F"::" '{printf("%s\n",$2)} | more" [-F':'=separar por algo, $s=string q imprimira, $2=q numero de string imprimira, |more= al terminar mostrara linea por linea]
+            "ln -s /home/usuario/file /home/links/alias_files" [-s=al momento de borrar, no borrara a lo q apunta] [siempre usar -s=link simbolico]
+                direccion del link      donde se ubicara y nombre
+        [ALIAS]
+                "ALIAS SOLO PARA 1 SESION"
+                alias vps='ssh user@IP'
+                "CREAR UN ALIAS QUE PERSISTA"
+                sudo echo "alias vps='ssh user@IP'" >> ~/.bash_aliases
+                "luego reloguear la sesion o el siguiente comando para poder utilizar el nuevo alias"
+                source ~/.bash_aliases
+                "ALIAS POPULARES PARA MI LINUX"
+                
+                sudo echo "" >> ~/.bash_aliases
+                sudo echo "alias nomb=''" >> ~/.bash_aliases
+                
+                source ~/.bash_aliases
+                sudo echo "alias relog='source ~/.bash_aliases'" >> ~/.bash_aliases
+                sudo echo "alias edita='sudo nano ~/.bash_aliases'" >> ~/.bash_aliases
+                sudo echo "alias cata='sudo cat ~/.bash_aliases'" >> ~/.bash_aliases
+                sudo echo "alias vps='sshpass -p Kgey1j4ql16UPDWT ssh root@167.86.119.191'" >> ~/.bash_aliases
+                sudo echo "alias vpsl='ssh -R 52698:127.0.0.1:52698 ubuntu@192.168.0.21'" >> ~/.bash_aliases
+                sudo echo "alias tab='gnome-terminal --tab'" >> ~/.bash_aliases
+                sudo echo "alias reloj='gnome-terminal  --hide-menubar --geometry 55x11-0+900'" >> ~/.bash_aliases
+                sudo echo "alias reloj1='tty-clock -sc'" >> ~/.bash_aliases
+                sudo echo "alias ast='sudo code-server /etc/asterisk'" >> ~/.bash_aliases
+
+                sudo echo "alias servicios='node /root/Invernadero/Arduino/servicios.js'" >> ~/.bash_aliases
+                sudo echo "alias api='cd /root/Invernadero/mod-api/ && npm run start-dev'" >> ~/.bash_aliases
+                sudo echo "alias mqtt='cd /root/Invernadero/mod-mqtt/ && npm run start-dev'" >> ~/.bash_aliases
+                sudo echo "alias socket='cd /root/Invernadero/ngx-admin-master/ && npm run start-dev'" >> ~/.bash_aliases
+                sudo echo "alias front='cd /root/Invernadero/ngx-admin-master/ && ng serve'" >> ~/.bash_aliases
+                
+        [RELOJ]
+                "apt-get install tty-clock"
+                "tty-clock -sc"
+        [VPS PATELECOM]
+                sshpass -p Kgey1j4ql16UPDWT ssh root@167.86.119.191
+        [CAMBIAR HORA A BOLIVIA]
+                ln -sf /usr/share/zoneinfo/America/La_Paz /etc/localtime
+        [POSTGRESQL]
+                "INSTALAR"
+                sudo apt-get install postgresql postgresql-client postgresql-contrib libpq-dev
+                service postgresql restart
+                "POSTGRESQL EN TERMINAL"
+                sudo su postgres
+                psql
+                "CREA LA BASE DE DATOS"
+                CREATE ROLE patelecom WITH LOGIN PASSWORD 'patelecom';
+                CREATE DATABASE patelecom;
+                GRANT ALL PRIVILEGES ON DATABASE patelecom TO patelecom;
+                \quit
+                "VER BD ESPECIFICO"
+                sudo su - postgres
+                psql -U postgres patelecom
+                \dt
+                "CREAR BACKUP Y RECOVER POSTGRES"
+                "Ubicar en la carpeta donde se creara backapp - selecciona bd y como se guardara"
+                pg_dump -U postgres -h localhost -d patelecom > invernadero.sql
+                "RESTAURAR"
+                su - postgres
+                psql -l //lista las base de datos
+                dropdb dbpropia //borra base de datos
+                createdb dbpropia //crea base de datos sin tablas ni nada
+                // db creada sin nada / ruta donde esta el backapp
+                psql dbpropia < /home/ubuntu/invernadero.sql
+                psql patelecom < /home/ubuntu/invernadero.sql
+                >
+                "VERIFICA"
+                psql dbpropia
+                \dt //ver todas las tablas
+                "Cambiar password por defecto"
+                su postgres
+                psql
+                alter user postgres with password ‘passwd’;
+                \q
+        [ARDUINO]
+                apt-get install arduino arduino-core 
+        [INSTALR PAQUETES .DEB]
+                sudo dpkg -i nombredelarchivo
+        [CAMBIAR PASSWORD LINUX]
+                sudo su
+                passwd 
+                passwd ubuntu
+                "ingresar nuevo password"
+        [SSH]
+                sshpass -p LP53a77tB5 ssh root@173.212.204.188
+        [FAIL2BAN]
+                "VER LOGS DE FAIL2BAN"
+                cat /var/log/fail2ban.log
+                "VER IPS BANEADAS"
+                iptables -L
+                "VER PUERTOS ABIERTOS "
+                netstat -ltn
+                "COMANDOS FAIL2BAN"
+                fail2ban-client reload
+
+        [PROGRAMAS VARIOS]
+                "httpie" mejor q curl, muestra con mas colores y opciones de PUT GET POST,etc
+        }
+
+Easy [Curso - Introducción a Terminal y Línea de Comandos ]
+    Tips{
+	[video 1]
+        "ls /usr/bin" lista todos los comandos disponibles
+        "ls /usr/bin | wc -l" muestra un contador con el total de comandos
+	[video 2]
+        "pwd" me muestra donde estoy
+        "ls -lha" muestra el listado, muestra cuanto pesa cada archivo, y los ocultos
+	[video 3]
+        "mkdri" crear carpeta 
+        "mv" mover
+        "mv prueba test" mueve test a la carpeta prueba, si no existe la carpeta prueba igual lo crea 
+        "man ls" manual de un comando especifico 
+        "ls -l .." lista el directorio, pero un directorio arriba 
+        "pushd /home/kali" es como el cd pero luego puedes usar el popd
+        "popd" vuelva al directorio anterior, siempre y cuando hayas usado pushd
+        "touch index.js" crear el archivo, y si ya existe cambia la fecha de creado a la actual
+	[video 4]
+        "more index.js" muestra mas sobre el archivo linea a linea 
+        "cat index.js" muestra todo de golpe 
+        "cat > index.js" crea el archivo y esta listo para escribir, con "ctrl + c" sale del editor
+        "tail -15 index.js" muestra las ultimas 15 lineas 
+	[video 5]
+        "which ls" muestra donde esta ubicado el comando [todos los ejecutables deberian estar en la carpeta bin, para ejecutar]
+        "echo $PATH" muestra desde donde se puede ejecutar todos los archivos ejecutables
+        "alias ll='ls -lh'" un comando largo lo simplifica para que sea mas corto, con el peso de cada archivo
+        "cat ~/.bash_profile" muestra todos los paths, [cuando inicia una nueva terminal ejecuta todos los comandos descritos ahi]
+	[video 6 - Stream - Estandar STDOUT] [BUENISIMO...!!!]
+        "ctrl + r" buscador de todos los comandos realizados
+        "node index.js > archivo" esta guardando las salidas a un archivo 
+        "tail -f archivo.txt" muestra en tiempo real las ultimas lineas del archivo 
+	[video 7]
+        "top" ver todos los procesos q corren en la pc y con "h" se ven las ayudas de top 
+        "kill -9 pid" termina el proceso señalado
+        "php streams.php > salida.log 2>&1 &" todas las salidas out y error del programa lo manda a salida.log y ademas muestra el pid ejecutado
+        "ls -l tex*" muestra todos los archivos q empiecen con text
+        "php programa.php; php programa2.php" ejecuta el primero programa, una vez q termine recien inicia el 2do programa [encadena comandos]
+        "ps -wA" imprime en pantalla todos los procesos 
+        "ps -wA | wc -l" imprime en un contador el total de procesos 
+        "ps -wA | grep ttys001" busca en la salida(todos los procesos) todas las lineas donde contenga ese texto
+        "uptime" muestra el total de tiempo que esta encendido la pc
+	[video 8 - grep find - busca dentro de los archivos textos especificos]
+        "grep -n -r . -e beco" busca en la carpeta y subcarpetas y dentro de los archivos ese texto y te muestra el numero de la linea 
+        "date" muestra la hora actual 
+        "time" tiempo del procesador
+        "date; grep -r carpeta -e beco;date" [truco] determina cuanto tiempo tardo el proceso
+        "grep peliculas.txt -e Comedy | wc -l" imprime el contador de lo que se encontro
+        "fin /carpeta -name *php -type f > resultados" busca todos los archivos q contengan php y lo guarda en un archivo [f= archivo, d=directorio, | wc -l=cuenta e imprime]
+	[video 9 - curl,zip,tar, awk (superbueno) - ver clase]
+        "curl http://link" imprime por pantalla el contenido de la direccion
+        "curl http://link -o archivo" guarda el contenido del link en ese archivo
+        "zip nombre.zip *txt" comprime en un zip todos los archivos q tienen txt
+        "unzip -vl nombre.zip" no lo descomprime, solo lo lista 
+        "tar cfz nombre.tar.gz *txt" comprime todos los archivos q tengan txt
+        "tar xfz nombre.tar.gz" descomprime los q son tar 
+        "cat archivo.txt | awk -F"::" '{printf("%s\n",$2)} | more" [-F':'=separar por algo, $s=string q imprimira, $2=q numero de string imprimira, |more= al terminar mostrara linea por linea]
+        "cat archivo.txt | awk -F"::" '{printf("%s - %s \n",$3, $2)} | more" lo mismo q el anterior solo q imprimira 2 strings con diferente orden
+	[video 10 - pipe "|" ]
+        el output del primer proceso, lo manda al siguiente y asi se puede encadenar todos los procesos posibles
+        "cat archivo.txt | grep nombre | awk -F "::" '{printf("%s:%s\n", $2, $3)}' | grep -v nombre2 | wc -l" anidados 5 funciones donde cada salida se pasa a la segunda funcion y se va haciendo operaciones adicionales en cada paso
+	[video 11 - contrab .- MUY BUENO...!!!]
+        "crontab -l" lista todos los crontabs existentes 
+        "contrab -e" edita el archivo crontab 
+        
+        minuto 0-59                         hora 0-23   dia mes 1-31    mes 1-12    dia semana:0-7(0y7 domingo)
+        minuto                              hora        dia             mes         algo                            script
+    ej: 1                                   5           *               *           *                               /home/script.sh >> texto.txt
+        1,10,18 (minuto 1,10 y 18)
+        */5 (cada 5min)
+        1-10(los primeros 10 min)
+        # esto es un comentario en crontab 
+        [importante en minuto siempre poner 0, sino sera cada minuto]
+	[video 12 - du (peso archivos), links]
+        "du -h" lista del directorio actual y todos los subdirectorios, cuanto pesa cada archivo/carpeta
+        "du -h -d 1" lista el peso pero de solo profundad 1
+        "ln -s /home/usuario/file /home/links/alias_files" [-s=al momento de borrar, no borrara a lo q apunta]
+                direccion del link      donde se ubicara y nombre
+        [siempre usar -s=link simbolico]
+	[video 13 - permisos]
+        Explica lo de los permisos, ver otra vez para entender 
+        "ls -lh" muestra en detalle y se explica a continuacion
+        [nota] Si un archivo lo intentas ejecutar a secas, tratara de ejecutarse con su binario por defecto q es bash .sh, si quisieras q se ejecute con su binario adecuado, en la primera linea de codigo añadir lo siguiente:
+        [antes - buscar su binario con "which php"] una vez ubicado el binario solo se copia su ubicacion
+        #!/usr/local/bin/php
+        codigo php
+        }
+
+
+

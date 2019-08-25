@@ -1,0 +1,5 @@
+Easy [general chrome]
+     Tips{
+        "ctrl + f5 || ctrl + shift + f5" Forzar actualizacion cache
+        
+    }

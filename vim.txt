@@ -1,0 +1,5 @@
+Easy [comandos]
+     Tips{
+        "i" ya se puede insertar datos en vim
+        "esc + x - enter" guarda el archivo
+    }

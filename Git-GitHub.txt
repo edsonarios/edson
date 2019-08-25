@@ -1,0 +1,158 @@
+[CURSO DE GIT Y GITHUB ]
+
+Hard [COMANDOS MAS USADOS]
+    Tips{
+
+        [inicio]
+                "git --version"	verifica la version de git
+                
+                [superlog] git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white) - %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+
+                "git config --global user.name 'TU NOMBRE'" inserta tu nombre
+                "git config --global user.email 'TU CORREO DE GITHUB'" inserta tu correo
+                "git config --global --list" verifica si se añadieron correctamente
+                "git clone https://github.com/edsonarios/Invernadero.git" te trae todo el proyecto con sus respectivo .git, listo para que puedas modificar y hacer el push 
+
+                "git pull origin master" fetch y merge en master al mismo tiempo
+                "git commit -am 'mensaje comit'" añade archivos y realiza un comit al mismo tiempo, solo aplica si los archivos no son nuevos
+                "git push origin master" sube al servidor github todos los cambios
+
+        [archivos nuevos]
+                "git add -A" añade todos los archivos para commit, solo la primera vez que se crea un archivo
+                "git commit -m 'mensaje para el comit'" crea un comit con su respectivo mensaje
+
+        [ramas]
+                "git checkout -b NOMBRE" Crea una nueva Rama de git y se ubica en esa rama
+                "git checkout master || experimental" se ubica en la rama deseada
+                "git merge experimental" ubicado en la master, fusiona experimental a nuestra rama master
+                "git branch -D rama" borrar la rama
+                "git push origin experimental" envia a github la rama experimental
+                "git branch -r" lista las ramas del servidor github
+                "git branch" lista las ramas locales
+                "git branch -a" lista todas las ramas servidor/local 
+
+        [git varios]
+                "git reset id --hard" vuelve en el tiempo a un commit anterior (--hard borra los commits q hubieran existido)
+                "git commit --amend" Si hiciste un commit apresurado, con esta opcion, puedes guardar tus ultimos cambios, en el ultimo commit realizado e incluso puedes cambiar el nombre 
+        
+        
+        [tag]
+                "git tag -a V0.1 -m 'Primera version' id" crear un nuevo tag con el id de un commit
+                "git tag" muestra todos los tags existentes
+                "git show-ref --tags" muestra los tags a q comit pertenecen
+                "git push origin --tags" envia a github solo los tags creados
+                "git tag -d nombreTag" elimina un tag especifico pero solo de manera local, no en github
+                "git push origin :refs/tags/nombreTag" ahora si elimina tag de github
+
+        [stash]
+                permite guardar temporalmente el estado actual, sin hacer comit
+                "git stash" vuelve instantaneamente al ultimo comit, pero el estado actual lo guarda temporalmente 
+                "git stash list" listar los stash 
+                "git stash pop" vuelve al estado guardado con los cambios hechos pero que estan sin hacer comit 
+                "git stash branch nuevaRama" lleva el estado actual con los cambios no guardados, a la nueva rama, con el estado actual, osea la rama no guardada, pero en la nueva rama esta lista para hacer un commit o hacer mas cambios, la rama anterior esta con el ultimo commit
+                "git stash drop" borra el stash guardado
+    }
+
+Easy [CURSO DE GIT Y GITHUB 2019]
+     Tips{
+        [video 10 - inicio]
+                "git init" inicializa el repositorio
+                "git log" log para ver todos los commits
+                "git log --stat" log con visualizacion de todos los archivos cambiados
+                "git add ." añadir todos los archivos a git 
+                "git commit -m 'mensaje del comit' " crea un commit con los archivos añadidos con su respectivo mensaje
+        [video 11 - diff show]
+                "git show archivo.js" muestra todos los cambios de un archivo en especifico 
+                "git diff" compara todo directamente
+                "git diff id1 id2" compara 2 versiones
+        [video 12 - reset checkout]
+                "git reset id --hard" vuelve en el tiempo a un commit anterior "--hard borra los commits q hubieran existido" 
+                "git checkout id" vuelve en el tiempo a una version anterior pero tods los commits seguiran apareciendo y desde el pasado se puede realizar un nuevo commit para añadir eos cambios anteriores a un nuevo commit 
+                "git checkout master" vuelve a la rama principal
+        
+        [video 14 - comit branch checkout]
+                "git commit -am 'mensaje commit '" add y commit al mismo tiempo, pero solo funciona con archivos que no son nuevos
+                "git branch experimental" crea una nueva rama
+                "git checkout experimental" nos ubica en la nueva rama
+        [video 15 - Merge]
+                "git branch" muestra todas las ramas
+                "git merge experimental" fusiona la rama experimental a la rama en la cual estamos ej:master "trae todo a master"
+                "git branch -D rama" borrar la rama [video 38]
+        [video 16 - Conflictos de merge]
+        [video 17 - conflicto pull]
+                "git remote add origin https://ejemplo.git" añade el enlace para publicar en github
+                "git pull origin master --allow-unrelated-histories" fusionar, traendo archivos de github, forzando merge, esto en caso dq se haga el push por primera vez
+                "git pull origin master" comando para simplificar fetch y mergue origin/master 
+        [video 19 - SSH]
+                "ssh-keygen -t rsa -b 4096 -C 'edsonrios9@gmail.com'" genera la llave publica y privada
+                "$ eval $(ssh-agent -s)" evaluar q ssh este funcionando
+                "ssh-add ~/.ssh/id_rsa" añadir la llave privada
+        [video 20 - Conexion GitHub - SSH]
+                "git remote -v" ver el origen al cual mandamos github 
+                "git remote set-url origin https://ejemplo.git" actualiza el link para conectarnos a github
+        [video 21 - alias- tag]
+                "git tag -a V0.1 -m 'Primera version' id" crear un nuevo tag con el id de un commit
+                "git tag" muestra todos los tags existentes
+                "git show-ref --tags" muestra los tags a q comit pertenecen
+                "git push origin --tags" envia a github solo los tags creados
+                "git tag -d nombreTag" elimina un tag especifico pero solo de manera local, no en github
+                "git push origin :refs/tags/nombreTag" ahora si elimina tag de github
+        [video 22 - gitk push experimental]
+                "gitk" visualizar los logs de manera grafica 
+                "git push origin experimental" envia a github la rama experimental 
+        [video 23 - Añadir colaboradores]
+        [video 24 - trabajo en ramas]
+        [video 25 - pull request]
+        [video 26 - pull request con github - IMPORTANTE PARA TRABAJAR EN EQUIPOS]
+        [video 27 - trajar con gits de 3ros y colaborar]
+        [video 28 - deploy a un servidor]
+                "git clone https:git.hub//ejemplo.git" copia el sistema a un servidor 
+                "git pull origin master" actualiza los cambios de git
+                Nota no se necesita hacer nada mas en un servidor 
+        [video 30 - gitignore]
+        [video 31 - readme.md]
+                url:<http://pandao.github.io/editor.md>
+                editar readme.md de manera profesional 
+        [video 32 - github pages]
+                Puedes publicar tu pagina web gratis en github
+        [video 33 - rebase - Buscar casos para su uso]
+                Fusiona 2 ramas en 1 sola, pero borra la rama experimental, y el historial de la rama experimental, convirtiendose todo como una sola rama, y sin historial 
+        [video 34 - github stash - IMPORTANTE]
+                permite guardar temporalmente el estado actual, sin hacer comit
+                "git stash" vuelve instantaneamente al ultimo comit, pero el estado actual lo guarda temporalmente 
+                "git stash list" listar los stash 
+                "git stash pop" vuelve al estado guardado con los cambios hechos pero que estan sin hacer comit 
+                "git stash branch nuevaRama" lleva el estado actual con los cambios no guardados, a la nueva rama, con el estado actual, osea la rama no guardada, pero en la nueva rama esta lista para hacer un commit o hacer mas cambios, la rama anterior esta con el ultimo commit
+                "git stash drop" borra el stash guardado
+        [video 35 - git clean]
+                "git clean --dry-run" te da un listado de los archivos que se borrarian
+                "git clean -f" borra los archivos que no estan trackeados, pero no de las carpetas repetidasm y los archivos ignorados
+        [video 36 - git cherry-pick]
+                "git cherry-pick id" Trae solo 1 comit y no todos a la rama principal
+                [Nota] si de 3 comits de otra rama te trajiste solo 1, al querer traer ya todo, causara un conflicto, pero solo acepta ambos cambios
+        [video 37 - git amend]
+                "git commit --amend" Si hiciste un commit apresurado, con esta opcion, puedes guardar tus ultimos cambios, en el ultimo commit realizado e incluso puedes cambiar el nombre 
+        [video 38 - reflog reset]
+                "git reflog" muestra absolutamente todo el historial, por mas q se haya borrado 
+                "git reset --hard id" con reflog vemos a donde queremos volver, y con reset volvemos a ese punto, borrando todos los comits posteriores q hubieran existio 
+                [nota] aunque con reset se hayan borrado los comits, con reflog aun se puede ver
+        [video 39 - git grep y log]
+                "git grep palabra" busca en todos los los archivos la palabra deseada
+                "-n" busca la linea exacta
+                "c" busca el contador de esa palabra
+                "git log -S 'palabra'" busca en los comits la palabra deseada
+        [video 40 - comandos y palabras varias]
+                "git shortlog" logs por persona 
+                "-sn" logs mas contador de cada persona 
+                "-sn --all" incluye los comits borrados
+                "-sn --all --no-merges" ignorado los merges
+                "git blame archivo.txt" te lista todo el archivo, y quien hizo cada linea 
+                "git blame -c archivo.txt" mejora la vista
+                "git blame --help" Funciona para todos los comandos y te da sus ayudas
+                "git blame css/estilos.css -L35,53" te lista solo esas lineas de codigo y no todo el archivo
+                "git blame -c css/estilos.css -L35,53" lista mejorada solo esas lineas de codigo y no todo el archivo
+                "git branch -r" lista las ramas del servidor github
+                "git branch" lista las ramas locales
+                "git branch -a" lista todas las ramas servidor/local 
+        [video 41 - Consejos despues del curso de github]
+        }

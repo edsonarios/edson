@@ -1,0 +1,88 @@
+https://monitoreafacil.com:8443
+Easy [INSTALAR ASTERISK]
+     Tips{
+        "DESCARGAR ASTERISK"
+        sudo wget https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-16.5.0.tar.gz
+        tar -xzvf asterisk-16.5.0.tar.gz
+        cd asterisk-16.5.0
+        "INSTALAR PREASTERISK"
+        sudo apt update && sudo apt -y upgrade
+        sudo apt -y install git curl wget libnewt-dev libssl-dev libncurses5-dev subversion  libsqlite3-dev build-essential libjansson-dev libxml2-dev  uuid-dev
+        "SCRIPTS PARA PREINSTALAR ASTERISK"
+        sudo contrib/scripts/get_mp3_source.sh
+        sudo contrib/scripts/install_prereq install
+        ./configure
+        make menuselect
+        make
+        make install 
+
+        "OPCIONAL"
+        make progdocs [opcional si tienes 4gb de ram]
+        make samples
+        make config
+        ldconfig
+        "CONFIGURACIONES ASTERISK"
+        sudo groupadd asterisk
+        sudo useradd -r -d /var/lib/asterisk -g asterisk asterisk
+        sudo usermod -aG audio,dialout asterisk
+        sudo chown -R asterisk.asterisk /etc/asterisk
+        sudo chown -R asterisk.asterisk /var/{lib,log,spool}/asterisk
+        sudo chown -R asterisk.asterisk /usr/lib/asterisk
+
+        "DESCOMENTAR ESAS LINEAS DE CODIGO"
+        sudo nano /etc/default/asterisk
+        AST_USER="asterisk"
+        AST_GROUP="asterisk"
+
+        sudo nano /etc/asterisk/asterisk.conf
+        runuser = asterisk ; The user to run as.
+        rungroup = asterisk ; The group to run as.
+
+        "CONFIGURACIONES ASTERISK"
+        sudo systemctl restart asterisk
+        sudo systemctl enable asterisk
+
+        sudo ufw allow proto tcp from any to any port 5060,5061
+
+    }
+
+sudo contrib/scripts/ast_tls_cert -C monitoreafacil.com -O "monitoreafacil.com" -d /etc/asterisk/keys
+
+wscat -s echo -c ws://192.168.0.21:8088/ws
+wscat -s echo -c ws://monitoreafacil.com:8088/ws
+
+wscat -s echo -c wss://192.168.0.21:8089/ws
+wscat -s echo -c wss://ec2-52-90-58-99.compute-1.amazonaws.com:8089/ws
+
+[creando certificado]
+openssl x509 -req -days 365 -in req-sip_patelecom.csr -CA ca.crt -CAkey ca.key -set_serial 01 -out cert-sip_patelecom.crt
+
+cat key.pem > asterisk.pem
+cat cert-sip_patelecom.crt >> asterisk.pem
+
+
+[verifica que el certificado este bien]
+openssl verify -CAfile /etc/asterisk/keys/ca.crt /etc/asterisk/keys/asterisk.pem 
+
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/asterisk.key -out /etc/apache2/ssl/asterisk.crt
+SSLCertificateFile /etc/apache2/ssl/apache.crt
+ SSLCertificateKeyFile /etc/apache2/ssl/apache.key
+
+[verifica q funcionen esos modulos]
+sudo asterisk -rx "module show like crypto"
+sudo asterisk -rx "module show like websocket"
+sudo asterisk -rx "module show like opus"
+
+[https para apache]
+sudo certbot --apache -d monitoreafacil.com -d www.monitoreafacil.com
+
+[desde apache a asterisk]
+cat privkey1.pem > /etc/asterisk/keys/asterisk2.pem
+cat fullchain1.pem >> /etc/asterisk/keys/asterisk2.pem
+
+
+* Ejemplos de front con sip.js pjsip etc
+* 
+
+
+

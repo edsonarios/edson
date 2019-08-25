@@ -1,0 +1,11 @@
+[INGRESOS Y EGRESOS]
+
+[Agosto]{
+    [16.  10.103,4 Bs]
+    "9.803,4 bs"
+    300 en mano 
+    
+}
+[Septiembre]{
+    [16]
+}
