@@ -2,7 +2,8 @@
 Hard [LINUX]
     Tips{
         [en terminal]
-        
+                "netstat -np | grep xxxx" ver puertos abierto y su pid
+                "kill -9 xxxx" matar ese proceso
             "ls -lha" muestra en detalle, peso, ocultos
             "ctrl + L" limpiar terminal 
             "ctrl + u" limpiar escritura hacia atras
@@ -63,6 +64,7 @@ Hard [LINUX]
                 "POSTGRESQL EN TERMINAL"
                 sudo su postgres
                 psql
+                "\l" ver todas las bases de datos
                 "CREA LA BASE DE DATOS"
                 CREATE ROLE patelecom WITH LOGIN PASSWORD 'patelecom';
                 CREATE DATABASE patelecom;
@@ -112,6 +114,8 @@ Hard [LINUX]
                 netstat -ltn
                 "COMANDOS FAIL2BAN"
                 fail2ban-client reload
+                "DESBANEAR IP"
+                fail2ban-client set sshd unbanip 10.xx.15x.12x
 
         [PROGRAMAS VARIOS]
                 "httpie" mejor q curl, muestra con mas colores y opciones de PUT GET POST,etc

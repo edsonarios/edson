@@ -1,0 +1,60 @@
+Hard [Curso de Administración de Servidores Linux]
+     Tips{
+        [VIDEO 2 - VIRTUALBOX Y SSH PUB]
+            "ssh-keygen -b 4096" Crea una llave ssh en .ssh/, la .pub y luego copiarla al servidor 
+            "ssh-copy-id -i .ssh/id_rsa.pub ubuntu@192.168.0.21" copia la llave ssh al servidor 
+            "less .ssh/authorize_keys" verifica que la llave este ahi, en el servidor
+            "sudo nano /etc/ssh/sshd_config" buscar "PasswordAuthentication yes" y cambiarlo a no, y luego reiniciar ssh, asi solo se permite el acceso atraves del archivo
+            [reiniciar el servicio de ssh]
+            "sudo service ssh restart" o
+            "sudo /etc/init.d/ssh restart"
+            [nota]
+            "chattr -i authorized_keys" por si no quiere editar el archivo aplicar este comando
+	    [VIDEO 3 - INSTANCIA AMAZON]
+            "ssh -i llave.pem ubuntu@192.168.0.21" para conectarnos en nuestro servidor amazon
+        [VIDEO 4]
+            "cd .ssh/" mover las llaves ssh siempre a esa carpeta para estar mas organizado
+            "mv llave.pem platzi.pem" cambia a un nombre representatitivo de esa llave con cualquier extension
+            "sudo nano .ssh/config" archivo nuevo para configuracion
+            [archivo config]
+            Host nombre
+                HostName 192.168.0.21
+                Port 22
+                User ubuntu
+                IdentityFile ~/.ssh/platzi.pem
+            "ssh nombre", con el archivo de configuracion ya solo es necesario colocar el nombre para conectarnos 
+            [tmux]
+            "apt-get install tmux" instala tmux
+            "tmux" inicia tmux, creando una nueva terminal
+            Crea nuevas terminales en la misma sesion 
+            "ctrl-b c" crear terminal
+            "ctrl-b n" ir siguiente terminal 
+            "ctrl-b d" deja la sesion abierta con todas sus terminales 
+            "tmux attach" reconecta la sesion abierta
+        [VIDEO 6 - vim]
+        [VIDEO 7 - paquetes]
+        [VIDEO 8 - aptitude - manejador, instalador, arreglo de paquetes]
+        [VIDEO 9 - comprimir, descomprimir]
+        [VIDEO 10 - compilar paquetes]
+        [VIDEO 11 - Encontrar documentacion]
+            "zless paquete" mirar sin descomprimir 
+        [VIDEO 16 - RAM, swap]
+            "apt-get install htop" te muestra la ram mas bonito q free
+            "du -sh" cuanto pesa la carpeta actual
+            "sudo su -" recomendable para iniciar sesion, xq esa una nueva sesion desde 0
+            "vim /etc/bash.bashrc" configuraciones de perfiles para todos los usuarios
+        [VIDEO 24 - Filtrar logs con diferentes comandos bash , MUY BUENO PARA LOGS...!!!]
+        [VIDEO 28 - backap postgresql base de datos, MUY BUENO...!!!]
+        [VIDEO 44 - Encriptar archivo, SUPER BUENO...!!!]
+            
+            
+
+            
+
+            
+
+
+
+
+        
+    }

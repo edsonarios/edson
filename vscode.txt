@@ -18,7 +18,19 @@ Easy [VSCODE]
         cd code-server1.1156-vsc1.33.1-linux-x64/
         sudo cp code-server /bin
         code-server . 
-    [RMATE]
+    [PLUGINS]
+        "Ayu" Theme para VisualStudio
+        "Bookmarks" Añade puntos dereferencia para moverse rapidamente
+        "Bracket Pair Colorizer" Colorea de mejor manera las llaves,parentesis, if, for, etc
+        "Code Runner" Ejecuta un programa rapidamente 
+        "leetnote-txt" Colorea los txt
+        "Material Icon Theme" Iconos mas bonitos 
+        "Prettier - Code format" Acomoda automaticamente todo el codigo
+        "Project Manager" Manejador de proyectos 
+        "Remote VSCode" Conectarse remotamente a un servidor 
+        "Settings Sync" Sincroniza todos los plugis instalados con una cuenta github
+        "vscode-faker" Crea datos falsos para pruebas 
+    [REMOTE VSCODE]
         "DESCARGAR EN EL SERVIDOR PARA USAR CON CODE"
         wget -O /usr/local/bin/rmate https://raw.github.com/aurora/rmate/master/rmate
         chmod a+x /usr/local/bin/rmate
