@@ -1,0 +1,16 @@
+{
+  "name": "servicios",
+  "version": "1.0.0",
+  "description": "script para servicios",
+  "main": "mega.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node servicios.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {},
+  "author": "edsonarios",
+  "license": "MIT"
+}
