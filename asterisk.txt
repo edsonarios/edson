@@ -83,6 +83,15 @@ cat fullchain1.pem >> /etc/asterisk/keys/asterisk2.pem
 
 * Ejemplos de front con sip.js pjsip etc
 * 
-
+[POSTGRESQL]
+    "INICIAR NUEVO DB"
+        sudo su postgres
+        psql
+        CREATE ROLE asterisk WITH LOGIN PASSWORD 'asterisk';
+        CREATE DATABASE asterisk;
+        GRANT ALL PRIVILEGES ON DATABASE asterisk TO asterisk;
+        \quit
+    "INSTALAR ODBC POSTGRES"
+        "apt-get install odbc-postgresql"
 
 

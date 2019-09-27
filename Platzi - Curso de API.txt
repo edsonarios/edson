@@ -1,0 +1,6 @@
+ Hard [Curso de API-REST]
+      Tips{
+         [Video 9 - PUT]
+            "PUT" Reemplaza toda la informacion de un json o db, como reemplaza se necesita mandar todo el json y no solo una parte
+     }
+ 

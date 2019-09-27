@@ -35,7 +35,8 @@ Hard [COMANDOS MAS USADOS]
 
         [git varios]
                 "git reset id --hard" vuelve en el tiempo a un commit anterior (--hard borra los commits q hubieran existido)
-                "git commit --amend" Si hiciste un commit apresurado, con esta opcion, puedes guardar tus ultimos cambios, en el ultimo commit realizado e incluso puedes cambiar el nombre 
+                "git commit --amend" Si hiciste un commit apresurado, con esta opcion, puedes guardar tus ultimos cambios, en el ultimo commit realizado e incluso puedes cambiar el nombre
+                "git rm -r --cached path_to_your_folder/" borra de cache de git carpetas que no deberian trackearse como /nodemodules
         
         
         [tag]

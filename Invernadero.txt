@@ -7,9 +7,13 @@ Hard [PROYECTO INVERNADERO]
             password: Kgey1j4ql16UPDWT
         [GIT]
             "git clone https://github.com/edsonarios/Invernadero.git"
-        [ANYDESK - PC]
+        [ANYDESK - PC Invernadero - Don Julio]
             909348350
             patelecom.srl
+		testtesttesttest@test
+        [ANYDESK - PC Raspberry Oficina]
+            194019934
+            1q2w3e4r5t6y7u8i9o0p
         [VERIFICAR IPS PARA PRUEBAS O PRODUCCION]
             "SERVIDOR"
             mod-agent/index.js (ip)

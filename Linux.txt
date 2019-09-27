@@ -119,6 +119,10 @@ Hard [LINUX]
 
         [PROGRAMAS VARIOS]
                 "httpie" mejor q curl, muestra con mas colores y opciones de PUT GET POST,etc
+        [RECURSOS VARIOS]
+                "Bash con colores, especialmente para git" 
+                sh -c "$(curl -fsSL https://raw.github.com/ohmybash/oh-my-bash/master/tools/install.sh)" 
+                <https://www.youtube.com/watch?v=jwpzJquR3Zc>
         }
 
 Easy [Curso - Introducción a Terminal y Línea de Comandos ]

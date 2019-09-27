@@ -1,0 +1,13 @@
+Hard [CURSO DE BUENAS PRACTICAS PARA ESCRITURA DE CODIGO]
+     Tips{
+        [Consejos]
+        - Utilizar tabulaciones
+        - Utilizar llaves para todos los ifs, aunque solo sea una linea de condicional
+        - Nombrar las funciones y variables lo mas descriptivo posible
+        - Modularizar todo el codigo en funciones mas pequeñas, para solo buscar en partes especificas del codigo, si existiera algun error
+        "Harcoding"
+        - Utilizar constantes en vez de variables, asi solo repites la variable, pero solo cambias el valor en un solo lugar
+        "Vdeo 23"
+        - Crea documentacion para el codigo, con ayudas para entender mejor el codigo, y que la propia documentacion escrita se muestre como autoayuda del codigo [super bueno...!!!]
+        
+    }
