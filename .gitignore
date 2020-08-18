@@ -75,3 +75,6 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+# Temporales de word
+~*

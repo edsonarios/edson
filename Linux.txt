@@ -35,16 +35,20 @@ Hard [LINUX]
                 
                 source ~/.bash_aliases
                 sudo echo "alias relog='source ~/.bash_aliases'" >> ~/.bash_aliases
-                sudo echo "alias edita='sudo nano ~/.bash_aliases'" >> ~/.bash_aliases
+                sudo echo "alias edita='sudo vi ~/.bash_aliases'" >> ~/.bash_aliases
+                
                 sudo echo "alias cata='sudo cat ~/.bash_aliases'" >> ~/.bash_aliases
                 sudo echo "alias vps='sshpass -p Kgey1j4ql16UPDWT ssh root@167.86.119.191'" >> ~/.bash_aliases
                 sudo echo "alias vpsl='ssh -R 52698:127.0.0.1:52698 ubuntu@192.168.0.21'" >> ~/.bash_aliases
+                
+                sudo echo "alias servicios='node /home/ubuntu/serviciosLinux/servicios.js'" >> ~/.bash_aliases
+                
                 sudo echo "alias tab='gnome-terminal --tab'" >> ~/.bash_aliases
                 sudo echo "alias reloj='gnome-terminal  --hide-menubar --geometry 55x11-0+900'" >> ~/.bash_aliases
                 sudo echo "alias reloj1='tty-clock -sc'" >> ~/.bash_aliases
                 sudo echo "alias ast='sudo code-server /etc/asterisk'" >> ~/.bash_aliases
 
-                sudo echo "alias servicios='node /root/Invernadero/Arduino/servicios.js'" >> ~/.bash_aliases
+                
                 sudo echo "alias api='cd /root/Invernadero/mod-api/ && npm run start-dev'" >> ~/.bash_aliases
                 sudo echo "alias mqtt='cd /root/Invernadero/mod-mqtt/ && npm run start-dev'" >> ~/.bash_aliases
                 sudo echo "alias socket='cd /root/Invernadero/ngx-admin-master/ && npm run start-dev'" >> ~/.bash_aliases
@@ -121,8 +125,12 @@ Hard [LINUX]
                 "httpie" mejor q curl, muestra con mas colores y opciones de PUT GET POST,etc
         [RECURSOS VARIOS]
                 "Bash con colores, especialmente para git" 
-                sh -c "$(curl -fsSL https://raw.github.com/ohmybash/oh-my-bash/master/tools/install.sh)" 
+                sh -c "$(curl -fsSL https://raw.github.com/ohmybash/oh-my-bash/master/tools/install.sh)"
                 <https://www.youtube.com/watch?v=jwpzJquR3Zc>
+        [PUERTOS ABIERTOS Y PROCESOS]
+                "netstat -ltn" ver todos los puertos abiertos
+                "netstat -punlt |grep ':8085'" ver puerto especifico y su pid 
+                "kill 1234" terminar proceso
         }
 
 Easy [Curso - Introducción a Terminal y Línea de Comandos ]

@@ -1,0 +1,46 @@
+ Hard [Curso de API-REST]
+      Tips{
+         [Video 3 - Configurar vim]
+            Configuraciones iniciales para editor vim
+         [Video 6 - Realizando scritps]
+            "i" modo insertar texto
+            ":wq" guardar y salir
+            ":q" salir, te preguntara si deseas guardar 
+            ":q!" forzar salir sin guardar
+            "dd" borra toda la linea actual, no debe estar en modo escritura
+            "Exporta variables"
+         [VIDEO 7- ]
+            "u" desacer accion
+            "yy" copiar esa linea
+            "#yy" copia el numero de lineas hacia abajo ej: "2yy", "3yy"
+            "p" pegar la linea o lineas copiadas
+         [VIDEO 8 - Scritps con argumentos]
+            Maneja los argumentos insertados por pantalla de una manera muy dinamica "Recomendado..!!!"
+         [VIDEO 9]
+            "#dd" borra # numeros de linea 
+            "Ctrl + v" como bloque, señalar texto especifico
+            "Ejecuta comandos shell en script bash"
+         [VIDEO 11]
+            Usa una sola variable para ir llenando uno por uno toda la informacion necesari "Recomendado...!!!"
+            "La mejor opcion para leer datos por consola y almacelarlas en una variable es" [read]
+         [VIDEO 13]
+            "read -n -p ; read -s -p" Utiliza argumentos para read, muy buenos. "Recomendado"
+         [VIDEO 14]
+            Amplia la forma de como recibir opciones de manera mas eficiente
+         [VIDEO 18]
+            "If" para numeros, cadenas, y archivos
+         [VIDEO 19]
+            "Case" Funciona como un case normal, pero se pueden agrupar varias opciones o un rango de opciones para una sola respuesta y validar que sea la opcion adecuada
+         [VIDEO 20]
+            "arreglos" vectores, lo importante es que puedes rellenar una arreglo de letras [A..Z] o [1..10] muy facilmente
+         [VIDEO 21]
+            "for" lo interesante, sq utiliza comando "ls" para listar todos los archivos de la carpeta actual
+         [VIDEO 24]
+            "break y continue" Funciona con archivos y nombres de archivos
+         [VIDEO 25]
+            "ssh" Transferir archivos atravez de ssh, mediante script
+         [VIDEO 34 y 35]
+            "postgresql" Creando menu para instalary/desinstalar postrgesql, sacar respaldo, restaurar
+            
+     }
+ 

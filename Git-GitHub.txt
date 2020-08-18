@@ -54,6 +54,11 @@ Hard [COMANDOS MAS USADOS]
                 "git stash pop" vuelve al estado guardado con los cambios hechos pero que estan sin hacer comit 
                 "git stash branch nuevaRama" lleva el estado actual con los cambios no guardados, a la nueva rama, con el estado actual, osea la rama no guardada, pero en la nueva rama esta lista para hacer un commit o hacer mas cambios, la rama anterior esta con el ultimo commit
                 "git stash drop" borra el stash guardado
+        [atajos con oh my zsh - https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet]
+                "gcam "mensaje"" atajo de git commit -am "mensaje"
+                "ggl" git pull origin $(current_branch)
+                "ggp" git push origin $(current_branch)
+                "gco" git checkout
     }
 
 Easy [CURSO DE GIT Y GITHUB 2019]
@@ -87,12 +92,14 @@ Easy [CURSO DE GIT Y GITHUB 2019]
                 "git pull origin master --allow-unrelated-histories" fusionar, traendo archivos de github, forzando merge, esto en caso dq se haga el push por primera vez
                 "git pull origin master" comando para simplificar fetch y mergue origin/master 
         [video 19 - SSH]
-                "ssh-keygen -t rsa -b 4096 -C 'edsonrios9@gmail.com'" genera la llave publica y privada
-                "$ eval $(ssh-agent -s)" evaluar q ssh este funcionando
-                "ssh-add ~/.ssh/id_rsa" añadir la llave privada
+                "ssh-keygen -t rsa -b 4096 -C 'edsonrios9@gmail.com'" En la PC genera la llave publica y privada
+                "eval $(ssh-agent -s)" evaluar q ssh este funcionando
+                "ssh-add /root/.ssh/id_rsa" añadir la llave privada a la PC 
         [video 20 - Conexion GitHub - SSH]
+                [Agarrar la llave publica de la PC y copiarla a tu perfil de git como nueva ssh] "Siempre es una nueva por PC"
                 "git remote -v" ver el origen al cual mandamos github 
-                "git remote set-url origin https://ejemplo.git" actualiza el link para conectarnos a github
+                "git remote set-url origin git@github.com:usuario/proyecto.git" actualiza el link para conectarnos a github
+                [despues solo hacer un pull y aceptar la nueva llave]
         [video 21 - alias- tag]
                 "git tag -a V0.1 -m 'Primera version' id" crear un nuevo tag con el id de un commit
                 "git tag" muestra todos los tags existentes

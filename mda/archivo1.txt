@@ -1,0 +1,9 @@
+-A --C --D --E -A -A --C --D --G --E --E --G --A --G --E --E --D --E -B --C -A
+[++AA] +E +A [+E-C] -D +E +A -E [++FA] +C +F +C +A +C +F +C [++GA] +D +G [+D-C] [+B-D] +D +G -G [+C-E] +G C +G E +G [C-E] -G
+[++A-A] +C +F +C +A +C [+F-G] -E
+[++A-E] +E +A +E C +E +A +E [++G-D] +D +G [+D-E] [+AB] +D +G -C
+[++AA] +E +A +E C +E +A +E ++A +E +B +E C +E +A +E
+[++AA] +E +A [+E-C] -D +E +A -E [++FA] +C +F +C +A +C +F +C [++GA] +D +G [+D-C] [+B-D] +D +G -G [+C-E] +G C +G E +G [C-E] -G
+[++A-A] +C +F +C +A +C [+F-G] -E
+[++A-E] +E +A +E C +E +A +E [++G-D] +D +G [+D-E] [+AB] +D +G -C
+[++AA] +E +A +E C +E +A +E ++A +E +B +E C +E +A +E [++A+EA]

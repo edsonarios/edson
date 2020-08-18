@@ -11,6 +11,7 @@ Easy [VSCODE]
      Tips{
         "ctrl + alt + x" run
         "ctrl + j || k || l" boockmarts: anterior, crear, siguiente
+        "alt + shift + f" ordena automaticamente el codigo 
     }
     [CODE-SERVER]
         wget https://github.com/cdr/code-server/releases/download/1.1156-vsc1.33.1/code-server1.1156-vsc1.33.1-linux-x64.tar.gz
@@ -30,7 +31,13 @@ Easy [VSCODE]
         "Remote VSCode" Conectarse remotamente a un servidor 
         "Settings Sync" Sincroniza todos los plugis instalados con una cuenta github
         "vscode-faker" Crea datos falsos para pruebas 
+        "Remote - WSL" Plugirn para interactucar con ubuntu linux de windows 10
+        "git blame" Util para saber quien escribio las diferentes lineas de codigo
+        "change-case" 
+
     [REMOTE VSCODE]
+        "Instalar Remote VSCode"
+        Luego presionar "F1" y "Remote: Start Server"
         "DESCARGAR EN EL SERVIDOR PARA USAR CON CODE"
         wget -O /usr/local/bin/rmate https://raw.github.com/aurora/rmate/master/rmate
         chmod a+x /usr/local/bin/rmate

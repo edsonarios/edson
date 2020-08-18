@@ -1,0 +1,13 @@
+[Arreglo cuando MAC no enciende]
+    "Comando + R" modo reparacion de disco, ahi podemos reparar el disco
+    "shift" Modo Seguro
+    "Comando + S" ingresamos a la consola de mac y presionamos "fsck -fy", si aparece q no hay nada, solo reiniciamos con "reboot", pero si aparece que los archivos fueron modificados, reiniciamos presionando el boton sin soltar 
+    "comando + alt + R + P" Se iniciara 2 veces con su sonido y dejar de presionar, elimina opciones de nvram
+    "mayuscula + control + alt" + luego "boton de encendido durante 10 segundos" 
+    "Comando + v" modo detallado
+    "alt" Modo boot
+    [Imac]
+        desconectar de la corriente 
+    [Mac]
+
+ 

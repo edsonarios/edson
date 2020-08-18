@@ -1,0 +1,7 @@
+Libros de js
+cracking the coding interview
+Serie libros de O'Reilly
+	The Good Parts of Javascript
+	Think Data Structures
+Eloquent javascript
+You don't know javascript

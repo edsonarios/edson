@@ -47,14 +47,94 @@ Hard [Curso de Administración de Servidores Linux]
         [VIDEO 28 - backap postgresql base de datos, MUY BUENO...!!!]
         [VIDEO 44 - Encriptar archivo, SUPER BUENO...!!!]
             
+        }
+Hard [Curso de Administración de Servidores Linux 2019]
+     Tips{
+        [VIDEO 5]
+            "cd -" devuelve a la ultima carpeta donde te moviste
+            "/var/log/auth.log" log donde se ve los de autenticacion
+        [VIDEO 7]
+            "chown" comando para cambiar de usuario a un archivo
+        [VIDEO 8 - IMPORTANTE]
+            "tty" ver en que terminal se esta trabajando
+            "w" muestra cantidad de usuarios conectados
+            "chvt x" del 1-6 muestra en que terminal estas conectado
+            "ps -ft tty1" muestra los usuarios conectados, con su pid
+            "kill -9 pid" mata al usuario
+        [VIDEO 9]
+            "jobs" si se esta en vi, y se presiona ctrl+z, el proceso estara parado, y con jobs se puede ver que procesos estan parados
+            "fg" regresa a un proceso parado
+            "ll" igual a ls -la
+            "nohup ./script.sh &" cat nohup.out, la salida del script lo saca directamente en nohup.out
+        [VIDEO 10]
+            "top" muestra estados del sistema
+            "cat /proc/cpuinfo | grep 'processor'" muestra el numero de procesadores
+            "free -h" memoria usada,libre
+            "sudo ps auxf | sort -nr -k 3 | head -5" muestra cuales son los procesos que mas cpu consumen
+            "sudo ps auxf | sort -nr -k 4 | head -5" muestra cuales son los procesos que mas ram consumen
+            "enseña mejor sobre todo el comando"
+            "htop" una mejor consola de informacion sobre los procesos,etc
+        [VIDEO 13]
+            "sudo dpkg-reconfigure tzdata" reconfigura la zona horaria
+        [VIDEO 15]
+            Instala paquetes basicos "sudo apt install build-essential libgd-dev openssl libssl-dev unzip apache2 php gcc libdbi-perl libdbd-mysql-perl"
+        [VIDEO 19]
+            Restringe el numero de procesos para un usuario especifico
+            Coloca reglas especificas para que un usuario pueda loguearse y solo en horas especificas
+        [VIDEO 20]
+            Configuraciones SSH 
+        [VIDEO 22]
+            Verificando que servicios estan corriendo en nuestro sistema
+            uso de journactl, que funciona verificar todos los logs del sistema 
+        [VIDEO 24]
+            Instalacion de NGINX "servidor web muy parecido a apache2" cada uno con sus diferencias
+            Configuraciones basicas de NGINX 
+        [VIDEO 26]
+            Configuraciones para iniciar nginx
+            "NGINX Amplify" Instalacion y configuracion, configuracion adicional, logs mas precisos, todo desde una interfaz grafica
+        [VIDEO 27]
+            Instalacion y configuracion de usuarios para mysql
+            "sudo vi /etc/mysql/debian.cnf" Archivo donde se encuentra el password de mysql
+            "mysql -u usuario -p" para ingresar a mysql
+            Configuracion adicional para asegurar mysql
+            Configuracion complementaria de NAGIOS a apache2
+        [VIDEO 28]
+            Configuracion de NAGIOS a mysql
+        [VIDEO 29]
+            Buscar logs
+            Amplia gama de comandos para realizar busquedas de archivos y en archivos "Super util para verificar los logs"
+        [VIDEO 30]
+            "LECTURA" Diferentes programas para monitorear servidores
+        [VIDEO 31]
+            Introduccion a bash
+        [VIDEO 32]
+            "env" ver todos las variables de entorno del sistema
+            genera archivo basico de bash para guardar en un archivo el espacio total y usado en disco
+            "ls -lts" ver archivos ordenados por fecha
+        [VIDEO 33]
+            Implementando bash para hacer backups de mysql automatizados, muy parecido al script de postgresql del Curso de Bash, la diferencia, que aqui maneja errores "Mejor"
+        [VIDEO 34]
+            Terminando el bash para backapp en mysql
+        [VIDEO 35]
+            "LECTURA" Crontab
+        [VIDEO 36]
+            Conceptos sobre seguridad en nuestro servidor
+        [VIDEO 37]
+            Mas conceptos sobre seguridad, pero habla de programas especificos para ayudarnos en la seguridad de nuestro servidor
+            Paginas para ver las vulnerabilidades
+        [VIDEO 38 - UFW]
+            "UFW" Firewall, enseña como manejar reglas de activar y desactivar puertos especificos
+        [VIDEO 39 - NMAP]
+            Scaneo de puertos de un servidor linux 
+            Verifica version de linux, puertos abiertos y su version, se puede comprobar con la version de un software para ver si tiene vulnerabilidades
+        [VIDEO 40 - lynis]
+            "sudo apt install lynis" software para auditar el sistema, te muestra todos los problemas de seguridad que se tiene en el servidor 
+            "sudo lynis audit system" Comienza la auditoria del sistema actual
+        [VIDEO 41]
+            Inicio de archivo de configuracion para un servicio de nodejs, y que se inicie automaticamente cuando se reinicie o falle el servidor 
+        [VIDEO 42]
+            Terminando la configuracion de nodejs
+            La app Nodejs se iniciara automaticamente como systemctl "MUY BUENO...!!!"
+            Ademas utiliza nginx para hacer un proxy hacia el puerto 3000, y asi cuando se accede al puerto 80, te redirecciona a nuestro backend "SUPER BUENO...!!!"
             
-
-            
-
-            
-
-
-
-
-        
     }

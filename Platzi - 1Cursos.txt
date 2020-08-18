@@ -1,6 +1,28 @@
+Easy [ORDEN CURSOS - IMPORTANTES]
+    "LINUX"{
+        [Introducción a Terminal y Línea de Comandos]
+            "https://platzi.com/clases/terminal/"
+            Comandos basicos para aprender sobre terminal de linux
+            Nivel Medio
+        [Curso de Programacion en Bash Shell]
+            "https://platzi.com/clases/bash-shell/"
+            Curso de programacion bash
+            [video 3]
+    }
+    "SERVIDORES"{
+        [Curso de Administración de Servidores Linux]
+            "https://platzi.com/clases/linux/" [Nueva Version]
+            
+    }
+
 Hard [CURSOS BAJADOS]
      Tips{
         "Curso Avanzado de Node.js - https://platzi.com/clases/nodejs/"
+        "Curso profesional de Git y GitHub - https://platzi.com/clases/git-github/ "
+        "Curso de API REST - https://platzi.com/clases/api-rest/"
+        "Curso de Buenas Prácticas para Escritura de Código - https://platzi.com/clases/mejor-codigo/"
+        "Curso de Administración de Servidores Linux - https://platzi.com/clases/linux/" [Nueva Version]
+
         "Curso Básico de Python - https://platzi.com/clases/python-basico/"
         "Curso de Análisis de Vulnerabilidades Web con OWASP - https://platzi.com/clases/seguridad/"
         "Curso de Deploy con Now.hs - https://platzi.com/clases/deploy-now/"
@@ -9,13 +31,11 @@ Hard [CURSOS BAJADOS]
         "Curso de Ingeniería de Datos con Python - https://platzi.com/clases/ingenieria-datos/"
         "Curso de Inteligencia Artificial con IBM Watson - https://platzi.com/clases/ibm-watson/"
         "Curso de Machine Learning Aplicado con Python - https://platzi.com/clases/scikit/"
-        "Curso de Python - https://platzi.com/clases/python/"
+        "Curso Practico de Python Creación de un CRUD - https://platzi.com/clases/python-practico/"
         "Fundamentos de Google Cloud Platform por Xertica - https://platzi.com/clases/fundamentos-google/"
         "Fundamentos de IBM Cloud - https://platzi.com/clases/ibm-cloud/"
         
-        "Curso profesional de Git y GitHub - https://platzi.com/clases/git-github/ "
-        "Curso de API REST - https://platzi.com/clases/api-rest/"
-        "Curso de Buenas Prácticas para Escritura de Código - https://platzi.com/clases/mejor-codigo/"
+        
         "Curso de DLP Prevención de Pérdida de Datos - https://platzi.com/clases/dlp/"
         "Curso de Adobe XD - https://platzi.com/clases/adobe-xd/"
         "Curso Profesional de DevOps - https://platzi.com/clases/devops/"
@@ -27,7 +47,6 @@ Hard [CURSOS BAJADOS]
         "Curso de DevOps con GitLab - https://platzi.com/clases/gitlab/"
         "Curso Avanzado de Vue.js y Firebase por Bedu - https://platzi.com/cursos/vuejs-avanzado/"
         "Introducción a Terminal y Línea de Comandos - https://platzi.com/clases/terminal/"
-        "Curso de Administración de Servidores Linux - https://platzi.com/clases/linux/"
         "Fundamentos de Ingeniería de Software - https://platzi.com/clases/ingenieria/"
         "Curso Avanzado de IBM Watson - https://platzi.com/clases/watson-avanzado/"
         "Curso De Redes de internet - https://platzi.com/clases/redes/"
@@ -70,43 +89,80 @@ Hard [CURSOS BAJADOS]
         "Curso de Unit Testing para MEAN con Jasmine - https://platzi.com/clases/pruebas-unitarias/"
         "Curso de SCRUM - https://platzi.com/clases/scrum/"
         "Curso de WebPack - https://platzi.com/clases/webpack/"
+        "Curso de Backend con Node.js - https://platzi.com/clases/backend-nodejs/"
+        "Curso de Fundamentos de Pensteting - https://platzi.com/clases/pentesting/"
+        "Curso de integracion de Backend con Frontend - https://platzi.com/clases/bff/ Falta 5,10,13"
+        
+        "Curso de Introduccion a la Edicion con Premiere - https://platzi.com/clases/premiere/"
+        "Curso de Autenticacion con Passport.js - https://platzi.com/clases/passport/"
+
 
         [PROXIMOS CURSOS]
         
         
+        "Curso de Server Side Render con Express - https://platzi.com/clases/ssr/"
+        "Curso Profesional de JavaScript - https://platzi.com/clases/javascript-profesional/"
+        "Curso de Frontend Developer - https://platzi.com/clases/frontend-developer/"
+        "Curso de Prework - Buenas practicas y Entorno de Desarrollo - https://platzi.com/clases/prework/"
+        "Curso Practico de React JS - https://platzi.com/clases/react-ejs/"
+        "Curso de React Router y Redux - https://platzi.com/clases/react-router-redux/"
+        "Curso de Big Data en AWS - https://platzi.com/clases/big-data/"
         
-        
+        Python
+        "Curso Avanzado de Django - https://platzi.com/clases/django-avanzado/"
+        "Curso de Flask - https://platzi.com/clases/flask/"
+        "Curso de Celery - https://platzi.com/clases/celery/"
 
-        
-        
-        "https://platzi.com/clases/backend-nodejs/"
-        Completar Escuela de Javascript
         Fundamentos de programacion
+        "Fundamentos de Arquitectura de Software - https://platzi.com/clases/arquitectura-software/"
+        "Curso Profesional de Arquitectura de Software - https://platzi.com/clases/pro-arquitectura/"
+        https://platzi.com/clases/jmeter/ [Proximamente]
+        
         Big Data y DataScience
+        "Curso Profesional de Ciencia de Datos - https://platzi.com/clases/data/"
+        "Fundamentos de R - https://platzi.com/clases/fundamentos-r/"
+        "Curso de Procesamiento de Lenguaje Natural - https://platzi.com/clases/procesamiento/"
+        https://platzi.com/cursos/algebra-ml/ [Proximamente]
+
         Internet of Things
+        "Curso de Fundamentos de Electricidad y Electronica - https://platzi.com/clases/electronica/"
+        "Curso de IoT - Protocolos de Comunicacion - https://platzi.com/clases/iot-protocolos/"
+        "Fundamentos de Desarrollo de Hardware con Arduino - https://platzi.com/clases/fundamentos-arduino/"
+        "Curso de Introduccion al IoT - https://platzi.com/clases/iot/"
+        "Curso de Diseño de Circuitos Electronicos - https://platzi.com/clases/circuitos-electronicos/"
+        "Curso Basico de Circuitos Electronicos - https://platzi.com/clases/fundamentos-circuitos/"
+
         Firebase
-
-        https://platzi.com/clases/pentesting/
-        https://platzi.com/clases/bff/
-        https://platzi.com/clases/passport/
-        https://platzi.com/clases/ssr/
-        https://platzi.com/clases/javascript-profesional/
-        https://platzi.com/clases/frontend-developer/
-        https://platzi.com/clases/prework/
-        https://platzi.com/clases/big-data/
-        https://platzi.com/cursos/pruebas-unitarias/
-        https://platzi.com/cursos/forense/
+        "Curso Profesional de Firebase para Android 2017 - https://platzi.com/clases/firebase-2017/"
+        "Curso de Firebase para Web - https://platzi.com/clases/firebase-web/"
+        "Curso de Firebase Cloud Functions - https://platzi.com/clases/firebase-cloud/"
+        "Curso de Firestore para Android - https://platzi.com/clases/firestore/"
+        https://platzi.com/clases/flutter-avanzado/
+        https://platzi.com/clases/flutter/
 
 
-
-
+        "Curso de Fundamentos Practicos de Machine Learning - https://platzi.com/clases/fundamentos-ml/"
+        "Curso de Angular - https://platzi.com/clases/angular/"
+        "Curso de Angular 6 - https://platzi.com/clases/angular-avanzado/"
+        "Curso Profesional de Angular - https://platzi.com/clases/angular-profesional/"
+        "Curso de Rendimiento en Angular - https://platzi.com/clases/angular-performance/"
+        "Curso de Ionic 4 - https://platzi.com/clases/ionic-avanzado/"
+        https://platzi.com/clases/web-apps/
+        "Curso de Infraestructura como codigo con Terraform - https://platzi.com/clases/devops-terraform/"
+        
+        https://platzi.com/clases/sql-azure/
+        https://platzi.com/clases/azure-iaas/
+        https://platzi.com/clases/almacenamiento-azure/
+        
         https://platzi.com/interfaces-ui/
         https://platzi.com/diseno-ux/
         https://platzi.com/diseno-producto/
-        - https://platzi.com/clases/community-manager/      doc. 13
-        https://platzi.com/clases/fotografia/
         
         
+        "Curso de Fundamentos de Fotografia - https://platzi.com/clases/fotografia/"
+        "Curso de Tecnicas Fotograficas para Producto y Retrato en Redes Sociales - https://platzi.com/cursos/fotografia-redes/"
+        
+        Revisar Arquitectura Frontend
         
         
 
