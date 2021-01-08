@@ -1,0 +1,18 @@
+Easy [Platzi - Curso de Prework - Buenas practicas y Entorno de Desarrollo]
+     Tips{
+        [VIDEO 5 - cat more ]
+            "cat archivo.txt" te muestra todo el archivo
+            "cat archivo.txt > copia.txt" copia todo el archivo 
+            "more archivo.txt" muestra parte por parte el archivo y si presionas espacio te muestra por trozos
+            "tail archivo.txt" te muestra las ultimas 10 lineas por defecto
+            "tail -15 archivo.txt" ahora te muestra las ultimas 15 lineas
+            "q" para salir de todos los modos
+        [VIDEO 6 - llaves ssh - interesante]
+        [VIDEO 7,8 - oh my zsh - configuracion de terminal]
+        [VIDEO 11,12 plugirns para front y back interesantes]
+            "json viewer para chrome - theme material"
+             
+        [TERMINADO]
+        
+        
+    }

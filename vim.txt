@@ -2,4 +2,9 @@ Easy [comandos]
      Tips{
         "i" ya se puede insertar datos en vim
         "esc + x - enter" guarda el archivo
+        "x" borra un espacio o letra
+        "dw" borra una palabra
+        "dd" borra una linea
+        "dG" borra desde la linea, hasta el final del archivo
+        "d1G" borra desde el principio hasta la linea 
     }

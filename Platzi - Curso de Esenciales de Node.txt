@@ -1,0 +1,25 @@
+Easy [Platzi - Curso de Esenciales de Node.js]
+     Tips{
+        [VIDEO 1,12 - apirest con mongodb]
+            "profundiza mas en como usar api-rest con mongodb" me salte esa parte pero el resultado esta mejor usando sequelize en el curso de nodejs avanzado
+        [VIDEO 13 - unitest con mocha]
+            "uso muy basico de mocha" 
+        [VIDEO 14 - jsdoc - muy interesante - muy importante]
+            "documentacion en el propio codigo" utiliza comentarios con colores para documentar las funciones en el propio codigo
+            "describe la funcion llamando a la funcion" una vez que esta documentado, al llamar a la funcion te muestra como ayuda los comentarios que escribiste, los parametros que recibe y que devolvera "muy util"
+            "crea un html con la documentacion que hicimos" adicionalmente y con el comando de jsdoc de npm, crea un archivo html basico, donde te muestra a detalle toda la documentacion que hiciste y muy facil de leer
+        [VIDEO 15 - eslint]
+            "uso de eslint version airbnb" 
+        [VIDEO 16,17,18 - npm public]
+            "reglas basicas para publicar nuestro repositorio en npm" 
+        [VIDEO 19 - grunt]
+            "uso muy basico de grunt" mimifica todo el codigo javascript en un archivo mas pequeño, tiene mas utilidades, pero no explica aqui
+        [VIDEO 20 - tiempos de ejecucion]
+            "medir el tiempo de una funcion" utiliza otras funciones de console, para medir el tiempo de una funcion, dandole diferentes datos y viendo cuanto tiempo tarda en procesar cada funcion, "interesante" "a partir de node 10.x ya tiene su propio modulo para medir tiempos " AVERIGUAR
+        [VIDEO 21 - test de estres]
+            "test de estres con node" utiliza modulos propios de node, para realizar test de estres con express, pero muy basico, solo te da las herramientas, mas nada aplicado
+            "ab" apache bench, utilitario de apache para realizar test de estres
+        [VIDEO 22 - clusters]
+            "cada cpu se encarga de un servicio" utiliza todos los cpus para diferentes instancias de un servicio express, maestro y esclavo, y en teoria, el cluster es manejar muchas tareas al mismo tiempo, y eso mejora el rendimiento
+        [TERMINADO]
+    }

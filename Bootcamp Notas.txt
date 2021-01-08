@@ -1,0 +1,64 @@
+Easy [mod-db]
+     Tips{
+        [standard]
+            "npm i --save-dev standard" en consola instalar para corregir errores de escritura en modo desarrollo
+            "lint":"standard", incluir en package.json en scripts, "npm run lint", ejecuta por consola y te muestra si hay errores y con "npm run lint -- --fix" corrige automaticamente esos errores
+        [sequelize]
+            "npm i sequelize pg pg-hstore --save" en consola instala sequelize y dependencias/drivers para utilizar postgres
+        [postgres]
+            "ingresar a postgres y crear la base de datos con sus respectivos permisos"
+            sudo su postgres
+            psql
+            CREATE ROLE dbbootcamp WITH LOGIN PASSWORD 'dbbootcamp';
+            CREATE DATABASE dbbootcamp;
+            GRANT ALL PRIVILEGES ON DATABASE dbbootcamp TO dbbootcamp;
+            \quit
+            [Ayuda]
+                "psql -l" lista todas las bases de datos
+                psql
+                drop user dbpropia; "borra a un usuario de postgres"
+                drop database dbpropia; "borra una base de datos"
+        [debug]
+            "npm i debug --save" instala debug para mostrar en consola los logs al crear la base de datos
+            "const debug = requiere('debug')('mod-db-setup')" aqui se especifica donde se hara el debug, por ahora en el archivo setup de mod-db ejecutado por sequelize
+            "setup": "DEBUG=mod:* node setup.js", en package.json se implementa esta linea para ejcutarla como script de npm
+        [librerias varias]
+            "npm i inquirer chalk minimist --save" inquirer realiza preguntas en la consola y obtiene la respuesta, chalk es para darle colores al los logs, minimist recibe los flags ingresados por consola
+        [variables de entorno - .env]
+            "npm i dotenv" instala el modulo para variables de entorno
+            "require("dotenv").config({
+            path: `../.env.${process.env.NODE_ENV || "development"}`,
+            });" asi utilizara las variables de entorno de nuestro archivo .env.development .env.production, respectivamente
+    }
+Easy [mod-api]
+     Tips{
+        [standard - nodemon]
+            "npm i standard nodemon --save-dev" ya utilizamos standard, y nodemon reinicia el servidor cada vez que guardamos un archivo
+            "start-dev": "DEBUG=mod:* nodemon server.js", en consola inicializa con nodemon
+            "lint": "standard" en consola para inicializar con standard
+        [express - debug - chalk]
+            "npm i express debug body-parser dotenv --save" debug ya lo utilizamos, express para inicializar un servidor en este caso para un api-rest, chalk para colorear los logs, body-parser parsea a json todos los bodys, dotenv para variables de entorno
+        [asyncify]
+            "npm i express-asyncify --save" express hasta la v8 de node no manejaba peticiones async await, asi que asyncify ya permite usar peticiones usando el modulo de bases asyn await
+        [heroku]
+            "curl https://cli-assets.heroku.com/install.sh | sh" instala heroku en tu pc 
+            "heroku --version" verifica que este instalado
+            "heroku login" se loguea con heroku en una ventana de navegador
+            "heroku create bootcamp-innova-2020-api" si colocas sin el nombre heroku te designa uno automaticamente
+            "heroku apps:rename --app antiguoNombre nuevoNombre" renombra una app ya creada
+            "git remote -v" verifica que heroku este añadido como ruta para subir el proyecto
+
+            "heroku config:add DB_NAME="dbBootcamp" DB_USER="postgres" DB_PASS="dbBootc4mp" DB_HOST="dbbootcamp.c0zoozpeoewu.us-east-1.rds.amazonaws.com"" Añadir variables de entorno a heroku, solo funciona ya en produccion, en local se debe enviar como parametro toda la cadena Ej:
+            "DB_HOST="ip" DB_NAME="dbBootcamp" heroku local"
+
+            "git push heroku nuestroBranch:master" envia nuestro proyecto a la rama master de heroku y con ":master" se especifica q no estamos enviando desde nuestra rama master, que es obligatorio en heroku Ej: "git push heroku Pbi/41563_RegistrarPedido:master"
+
+            "heroku run bash" Mediante consola ingresa a nuestro repositorio de git en heroku server
+
+            "importante" el proyecto principal, en nuestro caso mod-api, no debe estar en su carpeta mod-api/ sino debe estar en la raiz de todo el back para que no cause conflictos, en nuestro caso, mod-db puede estar dentro de lo que seria mod-api que ahora esta directamente en la raiz de todo el proyecto Ej: proyecto/mod-db: en proyecto ya estara todo el mod-api
+    }
+Medium [ayudas varias]
+     Tips{
+        [https://ohshitgit.com/] preguntas frecuentes de github, muy bueno
+        [https://www.toptal.com/developers/gitignore] comandos basicos para el git ignore de cualquier lenguaje
+    }

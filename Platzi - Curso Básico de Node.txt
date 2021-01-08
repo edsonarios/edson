@@ -1,0 +1,28 @@
+Easy [Platzi - Curso Básico de Node.js]
+     Tips{
+        [VIDEO 1-5 - historia conceptos funcionamiento]
+            Nodejs orientado a eventos y es asyncrono, maneja clases a muy poco nivel y como se usa mas DB no lo necesita, se especializa en realtime
+        [VIDEO 17 - Read archivos fs - importante]
+            "read an write"
+        [VIDEO 18 - leer datos por terminal]
+            "readline"
+        [VIDEO 19 - ejecutar comandos shell]
+            "child process" ejecuta comandos de shell en javascript y puedes procesar los resultados
+            "yargs" agarra los flags del comando
+        [VIDEO 20 - debuggin - muy importante]
+            "inspect" libreria para debugear
+            "visual studio code" debugea con el editor de visual studio code
+        [VIDEO 21 - manejo de errores - interesante]
+        [VIDEO 22 - EventEmmiter - muy importante]
+            "events" es un eventemmiter, maneja peticiones y llamados en formato de tiempo real,
+        [VIDEO 24 - server http]
+            "http" libreria nativa de nodejs para crear servidor http y alojar paginas web
+        [VIDEO 25 ,26 - express con wildcard - muy importante]
+            "app.get("*")" si tratamos de ingresar a una ruta no establecida, con esta opcion nos redirigira automatica a esta
+            "uso basico de express"
+        [VIDEO 27, 28 - MongDB - muy bueno]
+            "sudo apt install mongodb" instalar mongodb
+        [VIDEO 31 - socket y proyecto tres en raya]
+            "muy buenos conceptos sobre socket.io" 
+        [TERMINADO]
+    }

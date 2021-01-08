@@ -41,6 +41,6 @@
             "ssh" Transferir archivos atravez de ssh, mediante script
          [VIDEO 34 y 35]
             "postgresql" Creando menu para instalary/desinstalar postrgesql, sacar respaldo, restaurar
-            
+         [TERMINADO]
      }
  

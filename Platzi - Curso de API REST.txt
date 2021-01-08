@@ -1,6 +1,8 @@
  Hard [Curso de API-REST]
       Tips{
+         Conceptos generales sobre lo que es api-rest, utiliza de ejemplo PHP, pero sirve como teoria para cualquier lenguaje
          [Video 9 - PUT]
             "PUT" Reemplaza toda la informacion de un json o db, como reemplaza se necesita mandar todo el json y no solo una parte
+         [TERMINADO]
      }
  

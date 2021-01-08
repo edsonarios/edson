@@ -9,5 +9,5 @@ Hard [CURSO DE BUENAS PRACTICAS PARA ESCRITURA DE CODIGO]
         - Utilizar constantes en vez de variables, asi solo repites la variable, pero solo cambias el valor en un solo lugar
         "Vdeo 23"
         - Crea documentacion para el codigo, con ayudas para entender mejor el codigo, y que la propia documentacion escrita se muestre como autoayuda del codigo [super bueno...!!!]
-        
+        [TERMINADO]
     }

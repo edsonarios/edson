@@ -1,0 +1,42 @@
+Easy [Platzi - Curso de Backend con Node.js]
+     Tips{
+        [VIDEO 9,10,11 - Streams]
+            "streams" cuando por api se envia un archivo muy grande, la memoria crece demasiado, pero con streams puedes enviar el mismo archivo por partes y no consume nada de memoria, y la respuesta en ambos casos son iguales
+            "fs" funciones para leer y escribir archivos ej: txt
+            Varias aplicaciones para leer y escribir grandes cantidades de datos y mientras se va escribiendo o llegando o mandando, se puede ir manipulando "muy interesante, pero falta ejemplos practicos"
+        [VIDEO 12,13 - utilidades de node con el SO]
+            "os.cpus()" pide todos los recursos con los que esta actualmente el SO ej cantidad de cpus y sus rendimientos
+            "os.networkInterfaces()" ver la ip de nuestra red, y de todas las interfaces 
+            "os.freemem()" ver memoria ram 
+            "os.type()" ver tipo de SO 
+            "os.release()" ver version del SO 
+            "os.userInfo()" ver el usuario, home y shell
+            "fs" ejemplo de contar lineas de un txt, asyncrono y syncrono
+            "fs readdir" listar el directorio de archivos 
+            "fs mkdir" crea una carpeta con fs
+            "fs copyFile" copiar archivos
+        [VIDEO 14 - console.log()]
+            "utiliza la clase console.log" pero lo cambia totalmente personalizandolo y muy util para crear logs
+            "console." utiliza todas las variantes del console() tradicional, pero hasta ahora nada muy interesante
+        [VIDEO 18 - Empezando proyecto backend]
+            "video 18" instala todas las dependencias necesarias, agrega reglas basicas de eslint y prettier
+            "inicializa las variables de entorno"
+            inicializa el servidor basico
+        [VIDEO 20 - mockaroo]
+            "mockaroo" pagina web para crear un listado de mockups de forma facil y sin tardar demasiado
+        [VIDEO 21 - express - CRUD]
+            "CRUD" empieza a crear todos los endpoints basicos del proyecto
+            "video 22" enseña como postaman puede utilizar variables de entorno 
+            "gitignore" utiliza una pagina web, donde te genera un gitignore muy personalizado "super bueno...!!!"
+        [VIDEO 23 - crud]
+            "crud" implementa todo MVC a nuestra api crud
+        [VIDEO 24]
+             
+        
+        
+        
+        [TERMINADO]
+            Muchas utilidades basicas propios de nodejs
+        
+        
+    }

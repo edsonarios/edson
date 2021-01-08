@@ -1,0 +1,58 @@
+Easy [Platzi - Curso de Express.js]
+     Tips{
+        [VIDEO 3-4 - Intro express]
+            "teoria sobre express pero lo mas importante de estos 2 videos la aplicacion express generator donde te crea las rutas automaticamente a partir de un template de express"
+            "const server = app.listen(3000, function() {
+            console.log(`Listening http://localhost:${server.address().port}`);
+            });" server.address().port, especifica el puerto donde se inicio el servidor
+        [VIDEO 5, 10 - Template Engine]
+            "crea un template para usar en el front y explica como usarlo, usa herramientas como"
+            "pug" con esta libreria ya no es necesario escribir los tags clasicos de html, sino simplifica mucho su uso y el resultado final es mucho mejor 
+            "bulma" otra alternativa a "bootstrap" esta basado 100% en css y no utiliza javascript por lo que es siempre muy rapido, en su pagina indica los pros y contras vs a bootstrap, pero utiliza muchos mas estilos y mas tipos de iconos 
+            "video 10" explica como usar css personalizados y detalles
+        [VIDEO 11]
+            "todo un crud de productos con su respectiva estructura"
+        [VIDEO 12 - evolucion mvc]
+            "implementa una evolucion de modelo mvc con toda su estructura" 
+        [VIDEO 15,16,17 - mongoDB]
+            "mlab" base de datos en la nube gratis para mongodb
+            "Robo 3T" aplicacion de escritorio para conectarse a la base de datos, similar a heidisql
+            "video 16" coneccion a la base de datos de mongodb, utiliza las variables de entorno utilizando la libreria "dotenv", "utiliza muy buenas practicas para desarrollar este modulo con su propio archivo de configuracion"
+            "video 17" funciones crud con mongoDB
+        [VIDEO 19 - middleware]
+            "teoria middleware"
+            "video 20" implementacion de todos los middleware de errores
+            "video 21" middleware para validacion de datos, 
+            "lectura 22" sentry, para visualizar los errores cuando desplegamos a produccion en la propia pagina de sentry, esto de una manera muy facil y ordenado
+            "video 23" joi para validar datos 
+            "video 24" boom para enviar errores 
+        [VIDEO 26 - JWT passport.js]
+            "video 27" crea script para ingresar un admin a la DB directamente
+            "brypt" para encriptar contraseñas
+            "toda la implementacion usando JWT y passport"
+            "video 28" usa toda la logica de autorizacion y los implementa en los middleware de nuestra api 
+            "postman" utiliza variables de entorno directo en postman, y muchas utilidades "muy buenas...!!!"
+        [VIDEO 29 - test mocha,supertest, proxyquire]
+            "video 29" test solo para los endpoints, solo para los get, post, etc
+            "video 30" test solo para los servicios, para las funciones directas de la base de datos, pero todo mockeado
+            "video 31" test para comprobar si la peticion es html, xml o json
+        [VIDEO 33 - debug, inspect]
+            "incluye debug solo para epxress" en mi opinion es mejor para todo el proyecto incluso mod-db, solo si es en modo desarrollo
+            "inspect" es un debugeador en chrome para ver el comportamiento de nuestra aplicacion
+        [VIDEO 34 - buenas practicas para produccion] "muy bueno...!!!"
+        [VIDEO 35 - scripts]
+            "implementa scripts para produccion o build" mimificar el css
+        [VIDEO 36 - Control-Cache]
+            "Agregar tiempo de cache en nuestra api" Si tenemos que los datos de cierta api, no cambiaran en cierto tiempo, podemos definir un "Control-Cach" que hara que en el navegador persistan los ultimos datos requeridos a nuestra api y cuando actualice yano tardara tanto, xq los datos se guardo en su cache "NOTA:" aplicar cache solo en produccion
+            "helmet" aplicacion que se agrega directo a express.use(), este tiene varias reglas que agregan seguridad a nuestra api "muy util...!!!"
+        [VIDEO 40 - now]
+            "now" servidor para desplegar en produccion nuestra aplicacion, casi igual a "heroku" y muy util
+        [TERMINADO]
+            Muy buen curso sobre todo express, creo una tienda de una sola pantalla de front para comprar, muy bonito el front, toda una api muy bien estructurada, pero aun falta saber si sera nuestra estructura final, falta el curso de "backend con nodejs"
+            Las lecturas son muy buenas, darles un vistaso
+            Ademas implemento uso de test, para los 3 capas de servicio 
+            Uso estructura avanzada de MVC 
+            Validadores y manejador de errores "muy buenos...!!!"
+            Muy buenas practicas
+
+    }

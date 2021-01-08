@@ -1,0 +1,15 @@
+Easy [Platzi - Curso de Unit Testing para MEAN con Jasmine]
+     Tips{
+        [VIDEO 7,8,9 - ESlint, pretier]
+        [VIDEO 18 - plugis para jasmine]
+            "plugin para colorear el resultado de la prueba" 
+        [VIDEO 19 - coverage para jasmine]
+             
+        [VIDEO 20, 21, 22 - jasmine con express]
+            "crea una instancia manual con express" crea un servidor a parte con express para realizar las pruebas
+            "datos de desarrollo con morgan" "parece" que usa datos falsos para hacer una peticion directa a la base de datos
+            "peticiones get de pruebas"
+            "vid 22, peticiones post de pruebas"
+        [Nota final]
+            "Me quede en el video 20", pero el uso de los test los utiliza mas para el front, con elementos muy especificos que deberian aparecer en dicho front, siento q es mejor utilizar algo mas front como selenium IDE, plugin de chrome, para hacer pruebas automaticas directo al front y que las pruebas unitarias solo deberian ser para back "Nota escrita el 21-12-20"
+    }

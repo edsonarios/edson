@@ -1,0 +1,47 @@
+Easy [Platzi - Curso de Node.js]
+     Tips{
+        [VIDEO 1-5 - Teoria backend]
+        [VIDEO 7 - router de express]
+            "uso basico del router de express"
+        [VIDEO 8 - body parser]
+            "api.use(bodyParser.json())"
+            "api.use(bodyParser.urlencoded({ extended: false }))"
+            ambas expresiones se deben usar con la "app.use()" esto para 1. acepte parametros json en la api, 2. acepte datos desde el un formulario
+            "req.query" obtiene los parametros enviados por cabezera y con formato "?"
+            "req.body" obtiene los parametros enviados por json de un formulario o por un objeto json
+        [VIDEO 9 - Headers]
+            "req.headers" obtiene los parametros enviados por cabezera "muy util" y depende de la aplicacion se usara mas especificamente
+        [VIDEO 11 - Tipos de respuestas]
+            "Estructura un sistema de respuestas bien establecido para cualquier ruta" muy bueno...!!!
+        [VIDEO 12 - archivos estaticos Ej:html]
+            "crea ruta y utiliza express para servir archivos estaticos, en este caso envia una pagina html o un front entero" 
+        [VIDEO 13 - como presentar errores - teoria]
+            "Muestra un ejemplo de como presentar errores y como deberia ser dependiendo de la logica de la aplicacion, utiliza console.error()" 
+        [VIDEO 14 - Estructura de todo el backend]
+            "Solo teoria pero explica como sera la estructura de este backend; http, controller, store, todo en componentes" 
+        [VIDEO 15,16,17 - Aplicando de la nueva estructura]
+            "video 16" utiliza promesas para devolver logica de funciones
+        [VIDEO 18 - Toda la teoria sobre bases de datos - Muy bueno...!!!]
+        [VIDEO 19,20,21,22 - Usando MongoDB]
+             "video 21" utiliza una estructura para usar la misma api pero que devuelva diferntes valores por un filtro "muy interesante"
+        [VIDEO 26,27 - subiendo archivos]
+            "multer" libreria para subir archivos tipo imagenes o pdf
+        [VIDEO 28,29,30,31 - websockets]
+            "aplicacion websocket para chat tipo telegram en el front utiliza vuejs"     
+            "utiliza socket como instancia para poder utilizarla en cualquier parte de la api"
+        [VIDEO 32 - variables de entorno]
+            "cambia toda la configuracion a variables de entorno" 
+            "agrega tipos de respuesta utilizando codigo propio ej:200=done, 400=badrequest ,etc"
+        [TERMINADO]
+            Lo rescatable de este curso es la estructura de todo el back dividido en vista controlador y base de datos; igual utiliza MongoDB muy bien, y los sockets para un chat
+        
+        
+             
+        
+        
+        
+
+             
+        
+        
+    }

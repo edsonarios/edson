@@ -1,0 +1,13 @@
+Easy [Platzi - Curso de JavaScript Testing con Jest]
+     Tips{
+        [VIDEO 10 - coverage]
+            "coverage" te da un reporte sobre que funciones estan siendo probadas, en consola o de forma grafica con un html
+        [VIDEO 18 - test api async await]
+            "pruebas de errores tipicos 404, 500, etc" realizamos pruebas para que aproposito nos retorne errores 404, y asi detectamos ese error esperado
+        [VIDEO 19,20 - snapshot]
+            "jest snapshot" compara respuestas esperadas con las que ya tenemos pero compararlo y luego guardarlo, asi si cambia la respuesta de la api, podemos verificar exactamente que dato cambio
+            "excepciones" los ids, fechas, suelen cambiar siempre, asi que podemos realizar excepciones para una prueba, asi no fallara siempre, y solo comprobamos los datos necesarios
+        [VIDEO 23 - test con express]
+            "npm i jest" pruebas para una api con express jest y supertest, pero es muy basico, se debe conbinar con el "video 17, 18" de asyn await
+        [TERMINADO]
+    }

@@ -1,0 +1,53 @@
+Hard [Plazi - Curso de Fundamentos de Javascript]
+     Tips{
+        [VIDEO 2]
+            "Utiliza javascript en un navegador, utilizando un pequeño html llamando a nuestro archivo clase.js"
+        [VIDEO 7]
+            "Ingresa a una variable mediante navegador y utilizando funciones de la propia ventana windows.variable"
+        [VIDEO 8,9]
+            "manejo de funciones con objetos json"
+        [VIDEO 10 - importante]
+            "uso de funciones de objeto avanzado, crea un objeto nuevo a partir de uno ya existente y modifica sus atributos o modifica directamente al objeto original"
+        [VIDEO 11 - importante]
+            "Comparacion de valores doble igual y triple igual"
+        [VIDEO 14 - importante]
+            "varias formas de escribir una funcion, mas especifico funciones arrow"
+        [VIDEO 19, 20, 21, 22- importante]
+            "varias formas de llamar un array de arrays, funciones con filter, funciones con map, funciones con map, funciones con reduce"
+        [VIDEO 23,24 - Prototype importante]
+            "Utiliza las funciones prototype de javascritp similar a clases y herencias, muy interesante" 
+        [VIDEO 25 - this - muy importante para debugear]
+            "uso del this diferenciado con functio y this" 
+        [VIDEO 26 - clases/prototype - muy importante - dificil]
+            "no existe clases y herencia en javascript pero se utiliza protoype" 
+        [VIDEO 27, 28 - clases y herencia - muy importante]
+            "enseña clases y herencias con los nuevos patrones de ec2016" 
+        [VIDEO 29,30 - teoria muy importante]
+            "asyncronismo y cola de tareas en js" 
+        [VIDEO 31, 32, 33, 34 - callback]
+            "introduccion con ejemplos a callback" 
+        [VIDEO 35,36, 37 - promesas]
+            "introduccion a las promesas y como usarlas, y multiples promesas"
+        [VIDEO 38 - asyn await - muy importante]
+            "la mejor manera de usar y llamar las promesas" 
+        [VIDEO 39,45 - Empieza proyecto de la creacion de un juego en JS]
+        [VIDEO 46 var,let,const]
+            "diferencias entre var, let, const" 
+        [VIDEO 49 - importante - utilizacion de cache de js]
+            "guarda datos en la memoria cache para ahorrar mucho proceso de computo" 
+        [VIDEO 50 - clousure - muy importante]
+            "Una funcion recuerda su primer parametro y cuando se llama despues de guardarse utiliza su segundo parametro" complicado revisar
+        [VIDEO 51 - muy importante]
+            "utiliza nuevos objetos basados en el original para q los estos no sean modificados" 
+        [VIDEO 52 - this , call, aply]
+            "utiliza la funcion bind para cambiar el this actual convirtiendo este al nuevo this de esa funcion, call y aply es una forma de llamar a una funcion" 
+        [VIDEO 53 - cuando utilizar ;]
+            "utiliza en los unicos casos donde se necesita el ;" 
+        
+        [TERMINADO]
+          
+        
+        
+        
+        
+    }

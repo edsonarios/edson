@@ -14,6 +14,26 @@ Easy [ORDEN CURSOS - IMPORTANTES]
             "https://platzi.com/clases/linux/" [Nueva Version]
             
     }
+Medium [Cursos ya tomados]
+     Tips{
+        [Escuela de javascript]
+            "Platzi - Introducción a Terminal y Línea de Comandos"
+            "Platzi - Curso profesional de Git y GitHub"
+            "Platzi - Curso de Prework - Buenas practicas y Entorno de Desarrollo"
+            "Platzi - Curso de Buenas Prácticas para Escritura de Código"
+            "Platzi - Curso de Administracion de Servidores Linux" Muy bueno
+            "Platzi - Curso de Programacion en Bash Shell"
+            "Platzi - Curso de API REST"
+            "Platzi - Curso Básico de Node.js"
+            "Platzi - Curso de Esenciales de Node.js"
+            "Platzi - Curso de Fundamentos de Javascript"   Muy bueno
+            "Platzi - Curso de JavaScript Testing con Jest"
+            "Platzi - Curso de Unit Testing para MEAN con Jasmine"
+            "Platzi - Curso de Node.js"
+            "Platzi - Curso de Express.js" Muy bueno
+            "Platzi - Curso de Backend con Node.js"
+
+    }
 
 Hard [CURSOS BAJADOS]
      Tips{
