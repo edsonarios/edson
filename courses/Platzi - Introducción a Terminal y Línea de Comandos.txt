@@ -38,8 +38,8 @@ Hard [LINUX]
                 sudo echo "alias edita='sudo vi ~/.bash_aliases'" >> ~/.bash_aliases
                 
                 sudo echo "alias cata='sudo cat ~/.bash_aliases'" >> ~/.bash_aliases
-                sudo echo "alias vps='sshpass -p Kgey1j4ql16UPDWT ssh root@167.86.119.191'" >> ~/.bash_aliases
-                sudo echo "alias vpsl='ssh -R 52698:127.0.0.1:52698 ubuntu@192.168.0.21'" >> ~/.bash_aliases
+                sudo echo "alias vps='sshpass -p 123456 ssh root@192.168.0.100'" >> ~/.bash_aliases
+                sudo echo "alias vpsl='ssh -R 3000:127.0.0.1:3000 ubuntu@192.168.0.21'" >> ~/.bash_aliases
                 
                 sudo echo "alias servicios='node /home/ubuntu/serviciosLinux/servicios.js'" >> ~/.bash_aliases
                 
@@ -58,7 +58,7 @@ Hard [LINUX]
                 "apt-get install tty-clock"
                 "tty-clock -sc"
         [VPS PATELECOM]
-                sshpass -p Kgey1j4ql16UPDWT ssh root@167.86.119.191
+                sshpass -p 123456 ssh root@192.168.0.100
         [CAMBIAR HORA A BOLIVIA]
                 ln -sf /usr/share/zoneinfo/America/La_Paz /etc/localtime
         [POSTGRESQL]
@@ -108,7 +108,7 @@ Hard [LINUX]
                 passwd ubuntu
                 "ingresar nuevo password"
         [SSH]
-                sshpass -p LP53a77tB5 ssh root@173.212.204.188
+                sshpass -p 123456 ssh root@192.168.0.100
         [FAIL2BAN]
                 "VER LOGS DE FAIL2BAN"
                 cat /var/log/fail2ban.log
