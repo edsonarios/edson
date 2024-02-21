@@ -1,0 +1,222 @@
+Easy [Good ideas]
+     Tips{
+        pull 290
+        "https://github.com/midudev/pruebas-tecnicas/pull/290"
+            danmondra - pruebas-tecnicas
+            https://github.com/danmondra/pruebas-tecnicas/tree/main
+            https://lazpe-editorial.vercel.app/ [super super bonito, animacion, transicion muy buena, diseño profesional]
+        
+        "https://github.com/midudev/pruebas-tecnicas/pull/280"
+            https://github.com/luchofseven/pruebas-tecnicas/tree/main
+            luchofseven - pruebas-tecnicas
+            https://books-app-pied.vercel.app/ [diseño tipo libreria, muy bonita entrada de libros]
+        
+        "https://github.com/midudev/pruebas-tecnicas/pull/267"
+            https://reading-list-ailin-glez.netlify.app/ multiples filtros colocados
+        
+        "https://github.com/midudev/pruebas-tecnicas/pull/266"
+            https://github.com/mitoral/pruebas-tecnicas/tree/mitoral
+            mitoral - pruebas-tecnicas
+            https://midureads.netlify.app/ drag and drop, multiples filtros, [animacion de letras muy bonitos]
+        
+        "https://github.com/midudev/pruebas-tecnicas/pull/263"
+            https://github.com/KT1G/pruebas-tecnicas
+            https://github.com/KT1G/pruebas-tecnicas/tree/feat/BGorgal-solution
+            KT1G - pruebas-tecnicas
+            https://letsreadtogether.netlify.app/ [tranciciones muy buenas, modal, multiples filtros]
+        
+        "https://github.com/midudev/pruebas-tecnicas/pull/262"
+            darking09 - pruebas-tecnicas
+            https://github.com/darking09/pruebas-tecnicas/tree/darking09
+            https://reading-list-3li3g86ia-darking09.vercel.app/ [bonita carga de los libros]
+        
+        "https://github.com/midudev/pruebas-tecnicas/pull/259"
+            WilerMS - pruebas-tecnicas
+            https://github.com/WilerMS/pruebas-tecnicas/tree/wilerms
+            https://wilerpruebas.xyz/ [muy bonito diseño, libros con su base del color adecuado, multiples filtros muy bonitos]
+        
+        "https://github.com/midudev/pruebas-tecnicas/pull/258"
+            https://polish.pt-reading-list.pages.dev/ multiples listas de libros, tenia back, pero parece que ya no esta disponible
+        
+        "https://github.com/midudev/pruebas-tecnicas/pull/256"
+            cruzrovira - pruebas-tecnicas
+            https://github.com/cruzrovira/pruebas-tecnicas/tree/main
+            https://graceful-tartufo-59b68d.netlify.app/ modo oscuro
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/252"
+            MarcPerezdeTudela - pruebas-tecnicas
+            https://github.com/MarcPerezdeTudela/pruebas-tecnicas/tree/main
+            https://book-app-fawn.vercel.app/ [modo oscuro, multiples filtros, bonito diseño, paginacion]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/247"
+            blasferna - pruebas-tecnicas
+            https://github.com/blasferna/pruebas-tecnicas/tree/main
+            https://bookbuddy-one.vercel.app/ [modal del libro muy bueno, es lo que quiero aplicar]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/245"
+            npminit-dev
+            https://github.com/npminit-dev/npminit-dev/tree/main
+            https://stalwart-taiyaki-5a4932.netlify.app/ [modal y modo oscuro]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/234"
+            luisangelescom - pruebas-tecnicas
+            https://github.com/luisangelescom/pruebas-tecnicas/tree/main
+            https://lighthearted-travesseiro-234b27.netlify.app/ [los libros se van al vacio, super bueno]
+            
+        "https://github.com/midudev/pruebas-tecnicas/pull/228"
+            RANDRESS23 - pruebas-tecnicas
+            https://github.com/RANDRESS23/pruebas-tecnicas/tree/develop
+            https://reading-list-randress23.netlify.app/ [diseño tipo libreria, muy bonito, hover de libros y estantes]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/218"
+            joselupianez - pruebas-tecnicas
+            https://github.com/joselupianez/pruebas-tecnicas/tree/feat/add-joselupianez-solution
+            https://jlreadinglist.netlify.app/ [bilingue, filtro con contador muy bonito, modal de libro]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/215"
+            SitoNumbis - pruebas-tecnicas
+            https://github.com/SitoNumbis/pruebas-tecnicas/tree/deploy
+            https://sitos-library.web.app/ [agrupa los libros seleccionados de una buena manera, modal, hover y agregar el libro]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/204"
+            https://library.jhairparis.com/ tiene una animacion que hace al libro de lado muy interesante, despues no esta tan bonito, no se ve
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/203"
+            https://reading-book.kewinbarboza.com/ los libros seleccionados muestra una portada del primer libro, interesante
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/202"
+            https://lake-lib.vercel.app/ cuando haces click en un libro muestra un modal muy funcional
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/201"
+            https://reading-list-mb.netlify.app/ los filtros se muestran muy interesantes
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/198"
+            CMOISDEAD - pruebas-tecnicas
+            https://github.com/CMOISDEAD/pruebas-tecnicas/tree/main
+            https://prueba-01-library.netlify.app/ bonito diseño y uso del modal
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/197"
+            gboubeta - pruebas-tecnicas
+            https://github.com/gboubeta/pruebas-tecnicas/tree/main
+            https://reading-list-gboubeta.vercel.app/ [uso de hold en click para agregar, muy interesante]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/194"
+            10delin - pruebas-tecnicas
+            https://github.com/10delin/pruebas-tecnicas/tree/main
+            https://javascript-publishers.vercel.app/ [bilingue y hover bonito]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/193"
+            KrlosPK - pruebas-tecnicas
+            https://github.com/KrlosPK/pruebas-tecnicas/tree/main
+            https://bookslist-app.vercel.app/library [filtro de paginas con debounce muy bueno]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/191"
+            SaerwenLis - pruebas-tecnicas
+            https://github.com/SaerwenLis/pruebas-tecnicas/tree/main
+            https://main--stunning-jalebi-e13a53.netlify.app/ [transicion de selector de libros muy buenos, transiciona en su propio espacio]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/185"
+            Nheil3Dev - pruebas-tecnicas
+            https://github.com/Nheil3Dev/pruebas-tecnicas/tree/nheil3dev
+            https://superlative-cajeta-007bb2.netlify.app/ paginacion en una misma pagina
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/184"
+            diegobarroso - pruebas-tecnicas
+            https://github.com/diegobarroso/pruebas-tecnicas/tree/main
+            https://reading-list-diego-barroso.netlify.app/ [drag and drop libros]
+        
+        "https://github.com/midudev/pruebas-tecnicas/pull/183"
+            jmvaliente - pruebas-tecnicas
+            https://github.com/jmvaliente/pruebas-tecnicas/tree/feat/add-jmbrave-solution
+            https://books-list-bay.vercel.app/ [drag and drop]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/182"
+            jgimenoperez - pruebas-tecnicas
+            https://github.com/jgimenoperez/pruebas-tecnicas/tree/main
+            https://pruebastecnicas.vercel.app/ [animacion de libros reordenando, muy bueno]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/181"
+            Sainfuw - pruebas-tecnicas
+            https://github.com/Sainfuw/pruebas-tecnicas/tree/main
+            https://pruebas-tecnicas-sainfuw.vercel.app/ [transicion de libros muy bien lograda, muy buena]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/176"
+            david-ponc - pruebas-tecnicas
+            https://github.com/david-ponc/pruebas-tecnicas/tree/main
+            https://reading-list.davidponc.dev/ [blur cuando se ve libros seleccionados]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/171"
+            PabloMartinez01 - pruebas-tecnicas
+            https://github.com/PabloMartinez01/pruebas-tecnicas/tree/main
+            https://reading-list-pablo-m.netlify.app/ [ver lista como modal, interesante]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/170"
+            Laguilavo10 - pruebas-tecnicas
+            https://github.com/Laguilavo10/pruebas-tecnicas/tree/feat/solution-laguilavo10-prueba-01
+            https://pruebas-tecnicas-one.vercel.app/ [hover interesante de libros]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/168"
+            genaroibc - pruebas-tecnicas
+            https://github.com/genaroibc/pruebas-tecnicas/tree/main
+            https://books.gena.dev/ [super interesante hover y drag and drop]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/164"
+            AubisDev - pruebas-tecnicas
+            https://github.com/AubisDev/pruebas-tecnicas/tree/main
+            https://pruebas-tecnicas-aubisdev.vercel.app/ [modal y multiples filtros]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/155"
+            pablocazorla - pruebas-tecnicas
+            https://github.com/pablocazorla/pruebas-tecnicas/tree/main
+            https://reading-list-ebon.vercel.app/ [hover como libro y animacion de transicion para modal, interesante]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/149"
+            rubenperegrina - pruebas-tecnicas
+            https://github.com/rubenperegrina/pruebas-tecnicas/tree/main
+            https://pruebas-tecnicas-psi.vercel.app/available-books [animacion de click de filtros, muy bonitos]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/147"
+            tonysantana1492 - pruebas-01-reading-list-tonysantana1492
+            https://github.com/tonysantana1492/pruebas-01-reading-list-tonysantana1492/tree/main
+            https://pruebas-01-reading-list-tonysantana1492.vercel.app/ [contador en los filtros, muy bonitos]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/140"
+            Jared-MB - pruebas-tecnicas
+            https://github.com/Jared-MB/pruebas-tecnicas/tree/main
+            https://coruscating-mermaid-5a7360.netlify.app/ bonitas transiciones de libros, fade in y fade out
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/133"
+            SergioRibera - midu-pruebas-tecnicas
+            https://github.com/SergioRibera/midu-pruebas-tecnicas/tree/yew_rust
+            https://midu-001-readinglist.fly.dev/ [recomendacion libros de generos similares y comenzar a leer, modo oscuro muy basico]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/127"
+            danielcgilibert - pruebas-tecnicas
+            https://github.com/danielcgilibert/pruebas-tecnicas/tree/main
+            https://danielcg-prueba-01-reading-list.vercel.app/ [multiples filtros, bonito diseño]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/123"
+            santrodriguez-dev - pruebas-tecnicas
+            https://github.com/santrodriguez-dev/pruebas-tecnicas/tree/santi-dev-solution
+            https://reading-list-santidev-app.netlify.app/ [transicion de libros muy bien logrado]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/119"
+            jeanpierre-jeri - pruebas-tecnicas
+            https://github.com/jeanpierre-jeri/pruebas-tecnicas/tree/main
+            https://reading-list-jeanpierre.vercel.app/ [buena transicion de reordenamiento de libros, bonito]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/114"
+            MrAxf - pruebas-tecnicas
+            https://github.com/MrAxf/pruebas-tecnicas/tree/main
+            https://book-list-nine-eosin.vercel.app/ [al hacer click a un libro se dirige a su propia pagina con su id con una transicion de paginas muy buena, hover size que se superpone]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/93"
+            NicolasLLans - pruebas-tecnicas
+            https://github.com/NicolasLLans/pruebas-tecnicas/tree/main
+            https://listadelibrosnicodev.netlify.app/ [hover de libros interesante]
+
+        "https://github.com/midudev/pruebas-tecnicas/pull/43"
+            manuelsanchez2 - pruebas-tecnicas
+            https://github.com/manuelsanchez2/pruebas-tecnicas
+            https://pruebas-tecnicas-lista-lectura-manuelsanchez2.vercel.app/ [hover de libros, carga muy bonita de libros, descarga de libros]
+    }

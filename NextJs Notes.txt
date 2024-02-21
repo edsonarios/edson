@@ -1,0 +1,123 @@
+Medium [pnpm install]
+     Tips{
+        "windows"
+            iwr https://get.pnpm.io/install.ps1 -useb | iex
+        "linux"
+            curl -fsSL https://get.pnpm.io/install.sh | sh -
+            wget -qO- https://get.pnpm.io/install.sh | sh -
+        "types - Paste JSON as Code"
+            In VSCode, paste our json to transform to types:
+                Copy the json > F1 > "Paste JSON as Types" > name the types example "Books" > Enter 
+    }
+
+Easy [Next steps]
+     Tips{
+        "Create next app"
+            npx create-next-app@latest
+            Ok to proceed? (y) y
+            √ What is your project named? ... next-project
+            √ Would you like to use TypeScript with this project? ... / Yes
+            √ Would you like to use ESLint with this project? ... / Yes
+            √ Would you like to use Tailwind CSS with this project? ... / Yes
+            √ Would you like to use `src/` directory with this project? ... / Yes
+            √ Use App Router (recommended)? ... / Yes
+            √ Would you like to customize the default import alias? ... No /
+        "linter"
+            pnpm install ts-standard -D
+            file .eslintrc.json
+                {
+                    "extends": [
+                        "next/core-web-vitals",
+                        "./node_modules/ts-standard/eslintrc.json"
+                    ],
+                    "parserOptions": {
+                        "project": "./tsconfig.json"
+                    },
+                    "rules": {
+                        "react/react-in-jsx-scope": "off",
+                        "react/prop-types": "off",
+                        "@typescript-eslint/explicit-function-return-type": "off",
+                        "@typescript-eslint/no-misused-promises": "off",
+                        "@next/next/no-img-element":"off",
+                        "react-hooks/exhaustive-deps":"off",
+                        "indent": ["error", 4, {"SwitchCase": 1}],
+                        "@typescript-eslint/indent": ["error", 4],
+                        "react/jsx-indent":"off",
+                        "react/jsx-indent-props":"off"
+                    }
+                }
+
+        
+    }
+Medium [Next test]
+     Tips{
+        "install requirements"
+            pnpm install -D vitest
+            pnpm install @vitejs/plugin-react @testing-library/react happy-dom -D
+        "file vite.config.js"
+            import { defineConfig } from 'vite'
+            import react from '@vitejs/plugin-react'
+
+            export default defineConfig({
+                plugins: [react()],
+                test: {
+                    environment: 'happy-dom'
+                }
+            })
+        "scripts for package"
+            "test": "vitest",
+            "coverage": "vitest run --coverage"
+        "test example"
+            import { describe, expect, it } from 'vitest'
+
+            const fizzbuzz = () => {
+            }
+
+            describe('fizzbuzz', () => {
+                it('should be a function', () => {
+                    expect(typeof fizzbuzz).toBe('function')
+                })
+            })
+        "test example 2"
+            import { describe, it, afterEach } from 'vitest'
+            import { render, screen, cleanup, fireEvent } from '@testing-library/react'
+            import { Main } from '../src/app/components/main'
+
+            describe('Next tests', () => {
+                afterEach(cleanup)
+
+                it('E2E - should be render a Main component and select one book', () => {
+                    render(<Main />)
+                    screen.getByText('Lista de Libros')
+
+                    screen.getByText('Libros Disponibles: 13')
+
+                    const availableBook = screen.getByAltText('Juego de Tronos')
+                    fireEvent.click(availableBook)
+                    screen.getByText('Libros Disponibles: 12')
+
+                    screen.getByText('Libros Seleccionados: 1')
+                })
+            })
+
+        "Para eventos de usuarios es mejor usar:"
+            https://testing-library.com/docs/user-event/intro
+
+    }
+
+
+
+
+
+
+
+
+
+🔗 URL: https://rellena-aqui-tu-url-cuando-este-disponible.com
+
+## Checklist antes de enviar la PR
+- [ ] He creado una carpeta con mi nombre de usuario en `pruebas/<prueba>/`
+- [ ] No he modificado ficheros fuera de mi carpeta
+- [ ] Mi proyecto contiene un fichero `README.md`
+
+https://pruebas-tecnicas-beige.vercel.app/

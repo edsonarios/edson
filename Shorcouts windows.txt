@@ -1,0 +1,2 @@
+Windows + T = Extract image from text
+Ctrl + Windows + T = Always On Top

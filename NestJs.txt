@@ -1,0 +1,38 @@
+"Install nest"
+  npm i -g @nestjs/cli
+"Create new project"
+  nest new project-name
+".prettierrc" [optional]
+  "semi": false,
+  "endOfLine": "auto"
+
+  [run]
+    npm run lint
+
+"Create new resource (CRUD)"
+  nest g res <path/name>
+"Add swagger"
+  npm i @nestjs/swagger class-validator class-transformer
+"Add serverless"
+  npm i aws-lambda serverless-plugin-optimize @vendia/serverless-express
+  npm i -D @types/aws-lambda serverless-offline cross-env
+  [scripts package]
+    "start:dev": "npm install && cross-env OFFLINE=true nest start --watch",
+    "sls": "npm run build && serverless offline start",
+    "deploy:offline": "npm install && npm run build && serverless offline start",
+    "deploy:clean": "rm -rf node_modules && npm install --production && npm run build && serverless deploy",
+    "deploy": "npm run build && serverless deploy",
+  [tsconfig.json]
+  "esModuleInterop": true
+
+"/src/serverless.ts"
+"serverless.yml"
+  change name
+  run offline, not working with docs why https, use postman
+".github/workflows/deploy.yml"
+  change name
+
+  in file deploy.yml, review the "GATEWAY_NAME"
+  and review aws-region in step "Configure AWS credentials"
+  addtitionally review value to burstLimit and rateLimit
+  

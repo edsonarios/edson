@@ -1,0 +1,8 @@
+Easy [dependencies]
+   Tips{
+    "dependencies"
+    npm i @aws-lambda-powertools/logger @aws-lambda-powertools/metrics @aws-lambda-powertools/tracer @aws-sdk/client-cognito-identity @aws-sdk/client-cognito-identity-provider @aws-sdk/client-dynamodb @aws-sdk/lib-dynamodb @middy/core aws-lambda aws-xray-sdk-core class-validator dayjs
+
+    "dev-dependencies"
+    npm i -D @types/aws-lambda
+  }

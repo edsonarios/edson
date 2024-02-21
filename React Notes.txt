@@ -1,0 +1,53 @@
+Easy [Course React]
+     Tips{
+        "Create react app with vite"
+            npm create vite@latest react-app-vite
+            - React
+            - TypeScript + SWC
+        "Install linter for typescript and react"
+            npx eslint --init
+            npm init @eslint/config
+            - To check syntax, find problems, and enforce code style
+            - JavaScript modules (import/export)
+            - React
+            - Yes
+            - Browser
+            - Use a popular style guide
+            - Standard: https://github.com/standard/eslint-config-standard-with-typescript
+            - JavaScript
+            - Yes
+            - npm
+        Visual Extension "ESLint"
+        "F1" > "Preferencias: Abrir configuracion de usuario"
+        "F1" > "Preferences: Open User Settings"
+            "editor.codeActionsOnSave": {
+                "source.fixAll.eslint": true
+            },
+        
+        "Add custom rules"
+            [tsconfig.json]
+              "include": [
+                        "src",
+                        "vite.config.ts"
+                    ],
+
+            [.eslintrc.cjs]
+                "rules": {
+                    "@typescript-eslint/no-non-null-assertion": "off",
+                    "@typescript-eslint/explicit-function-return-type": "off",
+                    "react/react-in-jsx-scope": "off",
+                }
+        "Run lint"
+            pnpm lint
+
+
+    [NodeJs]
+        "Linter for node"
+            npm install standard -D
+            "package.json"
+                "eslintConfig":{
+                    "extends": "standard"
+                }
+        "cheatSheets for React"
+        https://github.com/typescript-cheatsheets/react
+    }

@@ -1,0 +1,55 @@
+flex-direction y flex-wrap = flex-flow
+
+"1. display"
+   - flex: Activa el modo flex en el contenedor.
+
+"2. flex-direction"
+   - row: Los elementos se colocan en una fila horizontal.
+   - row-reverse: Los elementos se colocan en una fila horizontal en orden inverso.
+   - column: Los elementos se organizan verticalmente.
+   - column-reverse: Los elementos se organizan verticalmente en orden inverso.
+
+"3. justify-content"
+   - flex-start: Los elementos se alinean al inicio del contenedor.
+   - flex-end: Los elementos se alinean al final del contenedor.
+   - center: Los elementos se centran en el contenedor.
+   - space-between: Los elementos se distribuyen uniformemente; el primer elemento está al inicio y el último al final.
+   - space-around: Los elementos se distribuyen con espacios alrededor de ellos.
+   - space-evenly: Los elementos se distribuyen con espacios iguales entre ellos.
+
+"4. align-items"
+   - stretch: Los elementos se estiran para ajustarse al contenedor.
+   - flex-start: Los elementos se alinean al inicio del eje cruzado.
+   - flex-end: Los elementos se alinean al final del eje cruzado.
+   - center: Los elementos se centran en el eje cruzado.
+   - baseline: Los elementos se alinean en la línea base de los elementos.
+
+"5. align-self"
+   - Permite anular el align-items para elementos específicos.
+   - Acepta los mismos valores que align-items.
+
+"6. align-content"
+   - Similar a justify-content, pero para líneas múltiples.
+   - stretch, flex-start, flex-end, center, space-between, space-around.
+
+"7. flex-wrap"
+   - nowrap: Todos los elementos están en una sola línea.
+   - wrap: Los elementos se envuelven en líneas adicionales.
+   - wrap-reverse: Los elementos se envuelven en líneas adicionales en orden inverso.
+
+"8. flex-flow"
+   - Es un atajo para flex-direction y flex-wrap.
+   - Ejemplo: flex-flow: row wrap.
+
+"9. flex"
+   - Es un atajo para flex-grow, flex-shrink y flex-basis.
+   - Ejemplo: flex: 1 1 auto.
+
+"10. flex-grow"
+    - Define la habilidad de un elemento para crecer si es necesario.
+
+"11. flex-shrink"
+    - Define la habilidad de un elemento para encogerse si es necesario.
+
+"12. flex-basis"
+    - Define el tamaño inicial de un elemento antes de distribuir espacio restante.

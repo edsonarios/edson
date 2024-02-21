@@ -1,0 +1,492 @@
+https://codi.link/PGhlYWRlcj50aXRsZTwvaGVhZGVyPg0KPGltZyBzcmM9Imh0dHBzOi8vaS5waW5pbWcuY29tLzIzNngvMzkvNzMvNDgvMzk3MzQ4NWVkMjUzZDY3MWVlZTZiNTA4M2ZlMjkyOTQuanBnIj4NCg==%7CaGVhZGVyIHsNCiAgYmFja2dyb3VuZC1jb2xvcjogYmx1ZTsNCiAgDQogIHBvc2l0aW9uOiBzdGlja3k7DQogIHRvcDogMHB4Ow0KICBhbmltYXRpb246IGFkanVzdC1oZWFkZXIgbGluZWFyIGJvdGg7DQogIGFuaW1hdGlvbi10aW1lbGluZTogc2Nyb2xsKCk7DQogIGFuaW1hdGlvbi1yYW5nZTogMCAyMDBweDsNCn0NCg0KQGtleWZyYW1lcyBhZGp1c3QtaGVhZGVyIHsNCiAgdG8gew0KICAgIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgLjMpOw0KICAgIGJhY2tkcm9wLWZpbHRlcjogYmx1cig1cHgpOw0KICAgIGZvbnQtc2l6ZTogMTJweDsNCiAgICBoZWlnaHQ6IDI0cHg7DQogIH0NCn0NCg0KaW1nIHsNCiAgdmlldy10aW1lbGluZS1uYW1lOiAtLXJldmVhbGluZy1pbWFnZTsNCg0KICBhbmltYXRpb24tbmFtZTogc2hvdzsNCiAgYW5pbWF0aW9uLWZpbGwtbW9kZTogYm90aDsNCiAgYW5pbWF0aW9uLXRpbWVsaW5lOiAtLXJldmVhbGluZy1pbWFnZTsNCiAgYW5pbWF0aW9uLXJhbmdlOiBlbnRyeSAyNSUgY292ZXIgNDAlOw0KfQ0KDQpAa2V5ZnJhbWVzIHNob3cgew0KICBmcm9tIHsNCiAgICBvcGFjaXR5OiAwOw0KICAgIHNjYWxlOiAyNSU7DQogIH0NCg0KICB0byB7DQogICAgb3BhY2l0eTogMTsNCiAgICBzY2FsZTogMTAwJTsNCiAgfQ0KfQ0KDQo=%7C
+
+[code pen]
+	"Popular codepen" [muy bueno]
+		https://codepen.io/2023/popular
+	
+	"tab transition"
+		https://codepen.io/jh3y/pen/MWxbrEp
+
+	[Favorites]
+		"Landin with slider images - 16"
+			https://codepen.io/kristen17/pen/GRXgqaB
+		"Timeline slider 17" [good]
+			https://codepen.io/nat-davydova/pen/ExewJBV
+		"Dark mode with beautiful background - 18"
+			https://codepen.io/TWilson/pen/jOdWqbZ
+		"Dashboard bento responsive - 19" [good]
+			https://codepen.io/ecemgo/pen/YzBZjjb
+		"Text hacker effect - 20"
+			https://codepen.io/Hyperplexed/pen/rNrJgrd
+		"Slider image with hover and pagination (responsive)- 22" [good]
+			https://codepen.io/josetxu/pen/vYvgJVE
+		"Card movie hover detail - 23"
+			https://codepen.io/pleasedonotdisturb/pen/oNQLVXB
+		"Slider images to background with view transition- 24"
+			https://codepen.io/dilums/pen/NWodZMd
+		"Clock neon - 25"
+			https://codepen.io/RAFA3L/pen/PoVYoPN
+		"Slider - 26"
+			https://codepen.io/kristen17/pen/ExpZXLz
+		"Check - 27" [good]
+			https://codepen.io/jkantner/pen/MWzqMrp
+		"Check - 29"
+			https://codepen.io/nicolasjesenberger/pen/xxmbvxL
+		"Button show navigation (type cook) - 30"
+			https://codepen.io/LukyVj/pen/xxyEYMJ
+		"Scroll show text - 31"
+			https://codepen.io/jh3y/pen/eYbYydG
+		"Check on/off - 32"
+			https://codepen.io/jkantner/pen/gOZrOQm
+		"Card hover light border - 33"
+			https://codepen.io/jh3y/pen/QWYPaax
+		"Sticky navigation - 34" [good]
+			https://codepen.io/codesuey/pen/abPEyjo
+		"Card 3D hover - 36"
+			https://codepen.io/t_afif/pen/qBJyXNy
+		"Card slider - 37" [good]
+			https://codepen.io/ecemgo/pen/ZEVojzN
+		"Card hover multiple cards - 39"
+			https://codepen.io/Hyperplexed/pen/poQmrEq
+		"Check mounth - 40" [good]
+			https://codepen.io/josetxu/pen/NWEPmGz
+		"Card with hover (avatar) - 41"
+			https://codepen.io/jsulpis/pen/XWypVxM
+		"Slider images - 44"
+			https://codepen.io/pleasedonotdisturb/pen/poqrZLZ
+		"Menu dropdown - 45"
+			https://codepen.io/ainalem/pen/bGmzRbE
+		"Card type credit card - 46"
+			https://codepen.io/simeydotme/pen/yLqZdEG
+		"Card view transition - 47"
+			https://codepen.io/TurkAysenur/pen/BavLzPj
+		"Check Dark mode - 48"
+			https://codepen.io/jkantner/pen/eYPYppR
+		"Follow mouse with ghost - 49"
+			https://codepen.io/ksenia-k/pen/yLGxEKb
+		"Hover draw text - 51"
+			https://codepen.io/alig01/pen/WNLGogV
+		"Range vertical - 52"
+			https://codepen.io/thebabydino/pen/qByGqOm
+		"world - 54"
+			https://codepen.io/ksenia-k/pen/NWERpmb
+		"slider - 57"
+			https://codepen.io/simeydotme/pen/gOBMZMe
+		"Border card - 60"
+			https://codepen.io/jlengstorf/pen/WNPGMJo
+		"Slider food - 61"
+			https://codepen.io/kristen17/pen/BaGOOMm
+		"Check - 65"
+			https://codepen.io/nicolasjesenberger/pen/bGQwBYo
+		"Hover 3D - 68"
+			https://codepen.io/mubangadv/pen/YzJNbOa
+		"Slider Header - 71"
+			https://codepen.io/ecemgo/pen/QWzeQOK
+		"Hover liquid - 73"
+			https://codepen.io/ksenia-k/pen/dyaeGgO
+		"Editable text color - 74"
+			https://codepen.io/LukyVj/pen/poOjqBv
+		"Price range slider - 76"
+			https://codepen.io/simeydotme/pen/WNLxxvx
+		"Slider 3D"
+			https://codepen.io/ecemgo/pen/GRzpEpB
+		"Keys pressing - 80"
+			https://codepen.io/jkantner/pen/ZEqKgWJ
+		"React Range sliders - 81"
+			https://codepen.io/dilums/pen/YzRwjBM
+		"Button hover light - 82"
+			https://codepen.io/simeydotme/pen/gOqNxRa
+		"Click create flower - 83"
+			https://codepen.io/ksenia-k/pen/RwqrxBG
+		"Show title effect - 84"
+			https://codepen.io/Taluska/pen/yLRZRoY
+		"Table neon green hacker - 88"
+			https://codepen.io/ksenia-k/pen/ExZzXQv
+		"Navigation bar - 91" [use]
+			https://codepen.io/cleveryeti/pen/PoXmZjv
+		"Card hover transition - 92" [use]
+			https://codepen.io/jh3y/pen/MWLyGxo
+		"Check egg - 93"
+			https://codepen.io/jkantner/pen/rNqxNXW
+		"Button gravity - 94"
+			https://codepen.io/thebabydino/pen/bGzeQrv
+		"Follow mouse with light points and create flowers - 95"
+			https://codepen.io/ksenia-k/pen/poOMpzx
+		"Count animation - 96"
+			https://codepen.io/konstantindenerz/pen/zYJzvEQ
+		"Header tab animation pencil - 97"
+			https://codepen.io/kevinleedrum/pen/gOjqzOe
+		"Dropdown with border animation - 98"
+			https://codepen.io/LukyVj/pen/ZEMrgMr
+
+[Node]	
+	"Manage dates better"
+		https://tempo.formkit.com/
+	
+	"alternativa a express"
+		https://hono.dev/
+
+	"Validaciones de esquemas, alternativa a joi, yup, ajv"
+		https://zod.dev/
+		https://valibot.dev/ "pesa mas pequeño"
+
+	"Enviar emails"
+		https://resend.com/home
+
+	"Alternative to nvm - fnm"
+		https://github.com/Schniz/fnm
+
+[TOOLS]
+	"optimizar imagenes"
+		https://squoosh.app/
+
+	"Comprar dominios"
+		https://porkbun.com/
+
+	"servidor r2"
+		https://www.cloudflare.com/
+	
+	"Analiticas para la web"
+		https://librecounter.org/
+	
+	"ver rendimientos de las paginas"
+		https://developer.chrome.com/docs/crux/
+
+	"cheatsheets"
+		https://devhints.io/
+	
+	"Web rtc"
+		https://github.com/steveseguin/vdo.ninja
+
+	"responsive en una sola pagina"
+		https://responsively.app/
+	
+	"Programacion para niños"
+		https://scratch.mit.edu/
+
+	"backend CMS"
+		strapi
+
+	"Reglas para animaciones en las paginas web "[muy bueno]
+		https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9
+
+	"Crear Mockups amazing"
+		https://shots.so/
+
+	"Cursos de Midu"
+		https://twitter.com/midudev/status/1526564306959183872
+		https://twitter.com/midudev/status/1668601915041628163
+
+	"Describe git commands"
+		https://gitexplorer.com/
+
+	"Base de datos con capa gratuita muy bueno"
+		https://turso.tech/
+
+	"Remove background"
+		https://www.remove.bg
+
+	"Increase quality image"
+		https://picwish.com/
+
+	"Web security, soo good course"
+		https://www.youtube.com/playlist?list=PL1y1iaEtjSYiiSGVlL1cHsXN_kvJOOhu-
+
+	"Fernando Herrera - docker - postgres mongo"
+		https://github.dev/Klerith/node-noc/tree/fin-seccion-12
+
+	"Edit pdf online"
+		https://acrobat.adobe.com/link/home/
+
+	"APIS to use"
+		https://rapidapi.com/
+
+	"Simulate a db with json"
+		https://jsonbin.io/
+
+	"Update wsl"
+		wsl.exe --update
+
+	[Documentation]
+		"Hacer documentacion"
+			https://mintlify.com/
+
+		"Documentation npm typescript"
+			https://tsdocs.dev/
+
+[REACT]
+	"Animaciones para react"
+		https://www.framer.com/motion/
+		https://react.useanimations.com/
+
+	"toast para react"
+		https://sonner.emilkowal.ski/
+	
+	"componentes para react"
+		https://www.prismane.io/
+	
+	"calendar"
+		https://react-day-picker.js.org/
+
+	"form"
+		https://react-hook-form.com/
+
+	"Upload file - React, vue, svelte, angular"
+		https://pqina.nl/filepond/
+	
+	"icons - react, vue, etc"
+		https://tabler.io/icons
+
+	"components google"
+		https://m3.material.io/develop/web
+	
+	"icons"
+		https://heroicons.com/
+
+	"Drag and drop"
+		https://dndkit.com/
+
+	"gonzy post para react"
+		https://twitter.com/goncy/status/1470745884472270857
+	
+	"Compilador para react que lo hace mas rapido"
+		https://million.dev/
+
+	"React pagination responsive"
+		https://react-responsive-pagination.elantha.com/
+
+	"Gallery images"
+		https://photoswipe.com/
+	
+	"Nice backgrounds"
+		https://bg.ibelick.com/
+
+[TAILWIND]
+	"Componentes basados en tailwind"
+		https://www.tailwindcss-animated.com/
+		https://flowbite.com/
+		https://daisyui.com/
+		https://www.hyperui.dev/
+		https://github.com/tailwindlabs/heroicons
+		https://ui.shadcn.com/
+		https://shadcn-ui-themes.vercel.app/
+		https://tailblocks.cc/
+		https://www.floatui.com/
+		https://react.keepdesign.io/
+	
+	"Design colors"
+		https://uicolors.app/create
+	
+	"Personalizacin para tailwind"
+	https://rewind-ui.dev/
+
+[BACKGROUNDS]
+	"Make backgrounds"
+		https://haikei.app/
+
+[CSS]
+	"manz"
+		https://manz.dev/
+		https://manz.dev/streams/
+		https://web.dev/learn/css/
+		https://lenguajecss.com/
+	
+	"css reference"
+		https://cssreference.io/
+	
+	"Componentes - button, hovers, etc" [muy bueno]
+		uiverse.io
+
+	"loader"
+		https://www.loadership.com/
+
+	"z-index"
+		https://web.dev/learn/css/z-index?hl=es-419
+	
+	"flex games"
+		https://flexboxfroggy.com/
+
+	"Animaciones"
+		https://easings.co/
+	
+	"Animaciones scroll"
+		https://developer.chrome.com/articles/scroll-driven-animations/
+
+	"midu scroll animation"
+		https://www.instagram.com/reel/C2-IKZSNGl3/
+
+	"midu slider"
+		https://www.instagram.com/reel/CrimDXSOCQ9/
+	
+	"midu animations react"
+		https://www.instagram.com/reel/CzB1Ib5N4Bs/
+	
+	"midu text lines effect"
+		https://www.instagram.com/reel/CyBMUHQtDsc/
+	
+	"midu header effect" [muy bueno]
+		https://www.instagram.com/reel/CwAkdM9t9HI/
+	
+	"midu show image scroll" [muy bueno]
+		https://www.instagram.com/reel/CvXPbd6t7LJ/
+	
+	"midu icon effect light"
+		https://www.instagram.com/reel/Cuo9JRTtURW/
+	
+	"midu gallery"
+		https://www.instagram.com/reel/C2h7-jdtF88/
+	
+	"midu hover effect mario"
+		https://www.instagram.com/reel/Cq236h1gd4m/
+	
+	"midu tooltip hover mario"
+		https://www.instagram.com/reel/CqanbSPjSXL/
+	
+	"midu hover 3D"
+		https://www.instagram.com/reel/CpArBttjSTr/
+	
+	"midu magic button"
+		https://www.instagram.com/reel/Cpxmok7DioR/
+	
+	"midu repeat image"
+		https://www.instagram.com/reel/CoATHv8ONZb/
+	
+	"midu field autocomplete"
+		https://www.instagram.com/reel/Cn9qcXdDbNo/
+	
+	"midu hover options to close" [muy bueno]
+		https://www.instagram.com/reel/CnpB5NkpLkM/
+	
+	"midu snow effect"
+		https://www.instagram.com/reel/CmWmx4yjaTK/
+	
+	"midu hearth effect"
+		https://www.instagram.com/reel/CmJ0cgFD_xG/
+	
+	"midu loeader personality"
+		https://www.instagram.com/reel/Cl30pEAjd29/
+	
+	"midu write effect"
+		https://www.instagram.com/reel/CllxvlRjS1x/
+	
+	"midu border gradient"
+		https://www.instagram.com/reel/ClgjdCcjBSf/
+	
+	"midu cards responsive"
+		https://www.instagram.com/reel/CteWxKpvA55/
+		https://www.instagram.com/reel/CjAtiN9vJLn/
+	
+	"midu like style twitter"
+		https://www.instagram.com/reel/CtZEhFpMaG3/
+	
+	"midu letter effect with video"
+		https://www.instagram.com/reel/Cih9ElQj8vX/
+	
+	"midu pointer follow"
+		https://www.instagram.com/reel/ChkLtnGDrYO/
+	
+	"midu filter image"
+		https://www.instagram.com/reel/Ce3xJ00Dxwu/
+
+	"midu avatar groups"
+		https://www.instagram.com/reel/Cdn0ZRKs7k2/
+	
+	"midu fade in"
+		https://www.youtube.com/shorts/jZB60RJZCqE
+	
+	"card box shadow maker"
+		https://alvarotrigo.com/shadow-gradients/
+		https://www.joshwcomeau.com/shadow-palette/
+	
+	"gradients"
+		https://www.designgradients.com/
+	
+	"css loader"
+		https://css-loaders.com/
+	
+	"clip path"
+		https://bennettfeely.com/clippy/
+	
+	"icons 3D"
+		https://www.3dicons.com/
+	
+	"svg icons"
+		https://boxicons.com/
+	
+	"animations"
+		https://sarthology.github.io/Animatopy/
+		https://animate.style/
+		https://animista.net/
+		https://xsgames.co/animatiss/
+	
+	"hover effects"
+		https://www.csswand.dev/
+		https://ianlunn.github.io/Hover/
+		https://www.cattocss.com/
+	
+	"transitions"
+		https://www.transition.style/
+
+	"Web components"
+		https://shoelace.style/
+
+	"Animaciones muy buenas para toda la web"
+		https://gsap.com/
+
+	"Counter animated"
+		https://codepen.io/akhijannat/pen/JjYQgNK
+
+	"Color contrast"
+		https://coolcontrast.vercel.app/
+
+	"Made icons"
+		https://icon.ray.so/
+
+
+[PORTFOLIO]
+	"Britanny chang - Ejemplo de portafolio"
+		https://brittanychiang.com/
+	
+	"Portafolios geniales"
+		https://www.david-hckh.com/
+		https://flext.dev/
+		https://www.clouarchitects.com/
+
+	"web ejemplos"
+		https://godly.website/
+
+[VARIOUS]
+	"animated wallpapers"
+		https://mylivewallpapers.com/
+
+	"trabajos en remoto"
+		https://github.com/remote-es/remotes
+
+	"Article - Migration application"
+		https://vercel.com/blog/incremental-migrations
+
+[QUICK]
+	"documentacion de quick"
+		https://www.manuelsanchezweb.com/cursos/qwik/
+
+[IA]
+	"Varios"
+		chatGPT
+		Imagen
+			dalle-e
+			stable difucion
+		midjourney
+		imagen ipari
+		video
+		kaber
+		hugging face
+		
+		"Similar to chatgpt"
+			https://www.phind.com/
+
+	"descargar llama listo para usar"
+		https://ollama.ai/
+
+	"transformers - diferentes IAs para diferentes tareas, listos para descargar y usar"
+		https://github.com/xenova/transformers.js
+

@@ -1,0 +1,18 @@
+Easy [javascript]
+     Tips{
+        "sincronizar eventos en diferentes ventanas"
+        https://twitter.com/midudev/status/1679122063099846656
+            window.addEventListener('storage', event => {
+            if (event.key === 'counter') {
+            const newCounterVatue = +event.newValue
+            $counter.textContent = newCounterVatue
+            }
+            })
+
+            $button.addEventListener('click', () => {
+            counter++
+            $counter.textContent = counter
+            localStorage.setItem('counter' , counter)
+            })
+    }
+

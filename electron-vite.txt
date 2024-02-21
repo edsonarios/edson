@@ -1,0 +1,82 @@
+Electron-Vite [First-Steps]
+   Tips{
+    https://www.youtube.com/watch?v=ONpVol7B7AY
+    "Create proyect"
+      npm create electron-vite
+    "Install tsconfig-paths"
+      npm i vite-tsconfig-paths
+      
+      "vite.config.ts"
+        import tsconfigPaths from 'vite-tsconfig-paths'
+        plugins: [
+          react(),
+          tsconfigPaths(),
+          ...
+        ]
+    "run proyect"
+      npm run dev
+
+    "eslint"
+      npx eslint --init
+      npm init @eslint/config
+      - To check syntax, find problems, and enforce code style
+      - JavaScript modules (import/export)
+      - React
+      - Yes
+      - Browser
+      - Use a popular style guide
+      - Standard: https://github.com/standard/eslint-config-standard-with-typescript
+      - JavaScript
+      - Yes
+      - npm
+    "aditional packages in package.json - devDependencies"
+      "eslint-config-standard-with-typescript": "^40.0.0",
+      "eslint-plugin-import": "^2.29.0",
+      "eslint-plugin-n": "^16.3.1",
+      "eslint-plugin-promise": "^6.1.1",
+    ".eslintrc.cjs"
+      extendes: [
+        "standard-with-typescript",
+        "plugin:react/recommended",
+      ]
+      rules: {
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/no-explicit-any": "off"
+      }
+    "install tailwind"
+      npm i tailwindcss autoprefixer -D
+
+      "tailwind.config.js"
+        /** @type {import('tailwindcss').Config} */
+        module.exports = {
+          content: [
+            './index.html',
+            "./src/**/*.{html,js,jsx,tsx,ts}"],
+          theme: {
+            extend: {
+              colors:{
+                plyrColor: '#00b2ff'
+              },
+              borderColor:{
+                plyrColor: '#00b2ff'
+              }
+            },
+          },
+          plugins: [],
+        }
+      "postcss.config.js"
+        module.exports = {
+          plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+          },
+        }
+      "index.css"
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+      "restart server"
+        npm run dev
+  }
